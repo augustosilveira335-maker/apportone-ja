@@ -1,0 +1,1565 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Apport One Já · Sua empresa aberta e em dia</title>
+<meta name="description" content="Abra sua empresa ou troque de contador e veja a ficha dela se montar na hora, com imposto estimado e preço. Fidelidade de 6 meses e escritório em Campo Bom.">
+<meta name="robots" content="noindex, nofollow">
+<meta property="og:title" content="Apport One Já · Abra sua empresa ou troque de contador">
+<meta property="og:description" content="Em poucos minutos, com o preço na hora. Abertura e troca por R$ 99,90 e fidelidade de 6 meses. Apport One Contabilidade, Campo Bom.">
+<meta property="og:image" content="https://ja.apportcontabilidade.com.br/online/img/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://ja.apportcontabilidade.com.br/">
+<meta name="theme-color" content="#001E60">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 512 512%22 role=%22img%22 aria-label=%22Apport One J%C3%A1%22%3E%3Crect width=%22512%22 height=%22512%22 rx=%22120%22 fill=%22%23001E60%22/%3E%3Cg transform=%22translate(64.44 85.32) scale(1.420)%22%3E%3Cpath fill=%22%23FFFFFF%22 d=%22M234.58 139.5c-5.2-20.23-16.4-38.05-31.59-51.46-5.11-4.51-10.68-8.52-16.61-11.96-15.14-8.76-32.72-13.77-51.46-13.77-28.42 0-54.15 11.52-72.77 30.14-18.63 18.62-30.14 44.35-30.14 72.77s11.52 54.15 30.14 72.77 44.35 30.14 72.77 30.14c18.74 0 36.32-5.01 51.46-13.77v13.77h51.46V165.22c0-8.89-1.13-17.51-3.25-25.73Zm-63.28 62.11c-9.31 9.31-22.17 15.07-36.38 15.07s-27.08-5.76-36.38-15.07c-9.31-9.31-15.07-22.18-15.07-36.38s5.76-27.07 15.07-36.38 22.17-15.07 36.38-15.07c28.42 0 51.46 23.04 51.46 51.46 0 14.21-5.76 27.07-15.07 36.38Z%22/%3E%3Ccircle cx=%22212.07%22 cy=%224.42%22 r=%2232.16%22 fill=%22%233DDC84%22/%3E%3C/g%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,300..500;1,6..72,300..500&family=Geist:wght@300..700&display=swap" rel="stylesheet">
+<style>
+/* Apport One Já · prévia Anvil. A ficha da empresa se monta enquanto a pessoa responde. */
+:root{
+  --navy:#001E60; --navy2:#0A2A73; --noite:#00133D; --azul:#2F6FE0; --azul-t:#1D5BC8; --ceu:#8EC0FF;
+  --papel:#F5F7FB; --papel2:#EAF0F8; --branco:#FFFFFF; --tinta:#0A1633; --tinta2:#45557C; --cinza:#6E7C9C;
+  --fio:rgba(10,22,51,.11); --fio2:rgba(10,22,51,.065); --fio-e:rgba(255,255,255,.14); --ok:#12A150; --erro:#C2341B;
+  --r:18px;
+  --sans:"Geist",system-ui,-apple-system,"Segoe UI",Arial,sans-serif;
+  --serif:"Newsreader",Georgia,serif;
+  --w:1240px; --g:20px;
+  --mola:cubic-bezier(.22,.7,.2,1);
+  --sombra:0 1px 2px rgba(0,19,61,.05),0 10px 30px rgba(0,19,61,.07);
+  --sombra2:0 2px 6px rgba(0,19,61,.06),0 30px 70px rgba(0,19,61,.16);
+}
+@media(min-width:800px){:root{--g:40px}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
+html.travado{overflow:hidden}
+body{margin:0;background:var(--papel);color:var(--tinta);font:400 16px/1.6 var(--sans);-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;overflow-x:hidden}
+img,svg{display:block;max-width:100%}
+a{color:inherit}
+button,input,select,textarea{font:inherit;color:inherit}
+[hidden]{display:none!important}
+.c{width:min(var(--w),100% - var(--g)*2);margin-inline:auto}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+:focus-visible{outline:2px solid var(--azul);outline-offset:3px}
+::selection{background:var(--ceu);color:var(--navy)}
+h1,h2,h3,h4,p{margin:0}
+em.s{font-family:var(--serif);font-style:italic;font-weight:400;letter-spacing:-.01em}
+kbd{font:600 11px/1 var(--sans);padding:4px 6px;border-radius:6px;border:1px solid currentColor;opacity:.6}
+
+.previa{position:relative;z-index:60;background:var(--noite);color:#fff;font:500 11px/30px var(--sans);letter-spacing:.14em;text-transform:uppercase;text-align:center;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;padding:0 12px}
+.previa b{font-weight:500;color:var(--ceu)}
+
+/* cabeçalho */
+.topo{position:sticky;top:0;z-index:50;background:rgba(245,247,251,.86);backdrop-filter:saturate(1.4) blur(14px);-webkit-backdrop-filter:saturate(1.4) blur(14px);border-bottom:1px solid transparent;transition:border-color .4s}
+.topo.rolou{border-color:var(--fio)}
+.topo .c{display:flex;align-items:center;gap:26px;min-height:72px}
+.marca{display:flex;align-items:center;gap:12px;text-decoration:none;color:var(--navy);flex:none}
+.marca svg.wm{width:170px;height:27px}
+.marca .tag{font:600 10.5px/1 var(--sans);letter-spacing:.12em;text-transform:uppercase;color:var(--azul-t);border:1px solid rgba(47,111,224,.35);padding:5px 8px;border-radius:99px}
+.menu{display:flex;gap:4px;margin-left:auto}
+.menu a{text-decoration:none;font:500 14.5px/1 var(--sans);color:var(--tinta2);padding:10px 12px;border-radius:10px;transition:background .3s,color .3s}
+.menu a:hover{background:var(--papel2);color:var(--tinta)}
+.topo .acoes{display:flex;gap:10px;align-items:center}
+.abre{display:none;width:44px;height:44px;border:1px solid var(--fio);border-radius:12px;background:var(--branco);cursor:pointer;place-items:center;margin-left:auto}
+.abre span{display:block;width:18px;height:1.6px;background:var(--navy);margin:3px auto;transition:transform .3s,opacity .3s}
+.abre[aria-expanded=true] span:nth-child(1){transform:translateY(4.6px) rotate(45deg)}
+.abre[aria-expanded=true] span:nth-child(2){opacity:0}
+.abre[aria-expanded=true] span:nth-child(3){transform:translateY(-4.6px) rotate(-45deg)}
+
+/* botões */
+.bt{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:50px;padding:0 22px;border-radius:14px;border:1px solid var(--navy);background:var(--navy);color:#fff;font:600 15px/1 var(--sans);text-decoration:none;cursor:pointer;transition:transform .25s var(--mola),background .3s,box-shadow .3s;white-space:nowrap}
+.bt:hover{background:var(--navy2);box-shadow:0 10px 24px rgba(0,30,96,.22);transform:translateY(-1px)}
+.bt:active{transform:translateY(0)}
+.bt.leve{background:var(--branco);color:var(--navy);border-color:var(--fio)}
+.bt.leve:hover{border-color:var(--navy);box-shadow:var(--sombra)}
+.bt.peq{min-height:42px;padding:0 16px;font-size:14px;border-radius:12px}
+.bt.zap{background:#128C4A;border-color:#128C4A}
+.bt.zap:hover{background:#0F7A40}
+.bt.branco{background:#fff;color:var(--navy);border-color:#fff}
+.bt.branco:hover{background:var(--papel2)}
+.bt kbd{border-color:rgba(255,255,255,.5);opacity:.75}
+.lk{display:inline-flex;align-items:center;gap:8px;font:600 14.5px/1 var(--sans);color:var(--azul-t);text-decoration:none;cursor:pointer;background:none;border:0;padding:6px 0}
+.lk:hover{text-decoration:underline;text-underline-offset:4px}
+.lk svg{width:16px;height:16px;stroke:currentColor;fill:none;stroke-width:2}
+.rot{display:inline-flex;align-items:center;gap:10px;font:600 12px/1 var(--sans);letter-spacing:.14em;text-transform:uppercase;color:var(--azul-t)}
+.rot i{width:8px;height:8px;border-radius:50%;background:var(--ok);box-shadow:0 0 0 4px rgba(18,161,80,.14);animation:pulsa 2.2s infinite}
+@keyframes pulsa{50%{box-shadow:0 0 0 7px rgba(18,161,80,0)}}
+
+/* ===== herói com o comando ===== */
+.heroi{position:relative;overflow:hidden;padding:clamp(36px,5.5vw,76px) 0 clamp(56px,7vw,96px)}
+.heroi::before{content:"";position:absolute;inset:0;background-image:linear-gradient(var(--fio2) 1px,transparent 1px),linear-gradient(90deg,var(--fio2) 1px,transparent 1px);background-size:56px 56px;mask-image:radial-gradient(ellipse 70% 70% at 72% 40%,#000 15%,transparent 72%);-webkit-mask-image:radial-gradient(ellipse 70% 70% at 72% 40%,#000 15%,transparent 72%);pointer-events:none}
+.heroi .c{position:relative;display:grid;grid-template-columns:minmax(0,1.06fr) minmax(0,.94fr);gap:clamp(30px,5vw,72px);align-items:center}
+.heroi h1{font:650 clamp(40px,5vw,70px)/1.0 var(--sans);letter-spacing:-.035em;margin:20px 0 18px;color:var(--navy)}
+.heroi h1 em.s{display:block;font-weight:400;letter-spacing:-.02em;color:var(--azul-t)}
+.heroi .sub{font-size:clamp(17px,1.3vw,19px);line-height:1.6;color:var(--tinta2);max-width:34em}
+.comando{position:relative;margin-top:28px;padding:10px;border-radius:24px;background:#fff;border:1px solid var(--fio);box-shadow:var(--sombra2);max-width:640px}
+.abas{display:flex;gap:4px;padding:4px;border-radius:15px;background:var(--papel);width:max-content;max-width:100%;margin-bottom:10px}
+.abas button{border:0;background:none;padding:10px 16px;border-radius:11px;font:600 14px/1 var(--sans);color:var(--tinta2);cursor:pointer;transition:background .25s,color .25s,box-shadow .25s}
+.abas button[aria-selected=true]{background:#fff;color:var(--navy);box-shadow:0 1px 3px rgba(0,19,61,.14)}
+.campo-cmd{display:flex;align-items:center;gap:12px;padding:6px 6px 6px 16px;border-radius:17px;border:1.5px solid var(--fio);transition:border-color .25s,box-shadow .25s}
+.campo-cmd:focus-within{border-color:var(--azul);box-shadow:0 0 0 5px rgba(47,111,224,.12)}
+.campo-cmd>svg{width:22px;height:22px;stroke:var(--cinza);fill:none;stroke-width:2;stroke-linecap:round;flex:none}
+.campo-cmd input{flex:1;min-width:0;border:0;outline:0;background:none;font:500 19px/1.3 var(--sans);color:var(--tinta);padding:12px 0}
+.campo-cmd input::placeholder{color:#97A3BD}
+.campo-cmd .bt{min-height:52px;border-radius:13px}
+.sugestoes{list-style:none;margin:8px 0 2px;padding:0;display:grid;gap:2px}
+.sugestoes:empty{display:none}
+.sugestoes button{display:grid;grid-template-columns:86px minmax(0,1fr) 18px;gap:2px 12px;align-items:center;width:100%;text-align:left;padding:11px 12px;border:0;border-radius:12px;background:none;cursor:pointer}
+.sugestoes button:hover,.sugestoes button:focus-visible,.sugestoes button.ativo{background:var(--papel);outline:0}
+.sugestoes .cod{font:600 12.5px/1.6 var(--sans);color:var(--azul-t)}
+.sugestoes .ds{font-size:15px;line-height:1.4;color:var(--tinta)}
+.sugestoes svg{width:16px;height:16px;stroke:var(--azul);fill:none;stroke-width:2}
+.sugestoes .emp{grid-template-columns:40px minmax(0,1fr) 18px}
+.sugestoes .emp .ic{width:40px;height:40px;border-radius:12px;background:rgba(18,161,80,.12);display:grid;place-items:center}
+.sugestoes .emp .ic svg{stroke:var(--ok);width:18px;height:18px;stroke-width:2.4}
+.sugestoes .aviso{padding:10px 12px;font-size:14px;color:var(--tinta2)}
+.cmd-dica{display:flex;flex-wrap:wrap;gap:6px 8px;align-items:center;margin:12px 6px 4px;font-size:13.5px;color:var(--cinza)}
+.cmd-dica button{border:1px solid var(--fio);background:var(--papel);color:var(--tinta2);font:500 13px/1 var(--sans);padding:7px 10px;border-radius:99px;cursor:pointer;transition:border-color .2s,color .2s}
+.cmd-dica button:hover{border-color:var(--azul);color:var(--navy)}
+.retomar{display:flex;align-items:center;justify-content:space-between;gap:12px;margin:10px 4px 2px;padding:12px 14px;border-radius:14px;background:rgba(47,111,224,.08);font-size:14px;color:var(--navy)}
+.retomar button{border:0;background:none;color:var(--azul-t);font:600 14px/1 var(--sans);cursor:pointer;white-space:nowrap}
+.provas{display:flex;flex-wrap:wrap;gap:10px 22px;margin-top:26px}
+.provas span{display:inline-flex;align-items:center;gap:8px;font:500 14px/1.3 var(--sans);color:var(--tinta2)}
+.provas svg{width:17px;height:17px;stroke:var(--ok);fill:none;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round;flex:none}
+
+/* ===== a ficha (no herói como demonstração e no pedido ao vivo) ===== */
+.ficha{position:relative;background:#fff;border-radius:22px;border:1px solid var(--fio);box-shadow:var(--sombra2);padding:24px 24px 20px;overflow:hidden}
+.f-top{display:flex;align-items:center;gap:12px;margin-bottom:16px}
+.f-top svg.wm{width:118px;height:18.5px}
+.f-top .f-tit{font:600 11px/1 var(--sans);letter-spacing:.14em;text-transform:uppercase;color:var(--cinza);padding-left:12px;border-left:1px solid var(--fio)}
+.anel{margin-left:auto;position:relative;width:46px;height:46px;flex:none}
+.anel svg{width:46px;height:46px;transform:rotate(-90deg)}
+.anel circle{fill:none;stroke-width:4}
+.anel .t{stroke:var(--papel2)}
+.anel .p{stroke:var(--azul);stroke-linecap:round;transition:stroke-dashoffset .7s var(--mola)}
+.anel b{position:absolute;inset:0;display:grid;place-items:center;font:650 11.5px/1 var(--sans);color:var(--navy)}
+.carimbo{position:absolute;top:66px;right:20px;font:700 11px/1 var(--sans);letter-spacing:.16em;text-transform:uppercase;color:var(--azul);border:1.5px solid currentColor;padding:7px 9px;border-radius:8px;transform:rotate(-5deg);opacity:.85;background:#fff}
+.carimbo.final{color:var(--ok);opacity:1;animation:carimba .7s var(--mola) both}
+@keyframes carimba{0%{transform:scale(2.4) rotate(-14deg);opacity:0}60%{transform:scale(.94) rotate(-4deg);opacity:1}100%{transform:scale(1) rotate(-5deg);opacity:1}}
+.f-rot{font:600 11px/1.4 var(--sans);letter-spacing:.1em;text-transform:uppercase;color:var(--cinza)}
+.f-razao{font:400 clamp(24px,2.1vw,30px)/1.15 var(--serif);color:var(--navy);letter-spacing:-.01em;margin:4px 0 2px;min-height:1.15em;padding-right:96px;overflow-wrap:anywhere}
+.f-razao .vaz{width:72%;height:16px}
+.f-sub{font-size:13.5px;color:var(--cinza);min-height:1.4em}
+.f-linhas{display:grid;margin:14px 0 0;border-top:1px solid var(--fio)}
+.f-l{display:grid;grid-template-columns:118px minmax(0,1fr);gap:12px;padding:9px 6px;margin:0 -6px;border-bottom:1px solid var(--fio2);font-size:14px;line-height:1.45;border-radius:8px}
+.f-l dt{font:600 10.5px/1.75 var(--sans);letter-spacing:.08em;text-transform:uppercase;color:var(--cinza)}
+.f-l dd{margin:0;color:var(--tinta);overflow-wrap:anywhere}
+.f-l dd small{display:block;font-size:12px;color:var(--cinza)}
+.f-l.novo{animation:destaca 1.4s var(--mola)}
+@keyframes destaca{0%{background:rgba(47,111,224,.16)}100%{background:transparent}}
+.vaz{display:inline-block;width:60%;height:9px;border-radius:6px;background:var(--papel2);vertical-align:middle}
+.f-num{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:14px}
+.f-num>div{padding:12px 14px;border-radius:14px;background:var(--papel)}
+.f-num small{display:block;font:600 10.5px/1.3 var(--sans);letter-spacing:.08em;text-transform:uppercase;color:var(--cinza);margin-bottom:6px}
+.f-num b{display:block;font:650 19px/1.15 var(--sans);color:var(--navy);letter-spacing:-.02em}
+.f-num b span{font-size:12.5px;font-weight:500;letter-spacing:0;color:var(--cinza)}
+.f-num p{margin-top:4px;font-size:12px;line-height:1.35;color:var(--cinza)}
+.f-num .eco{grid-column:1/-1;background:rgba(18,161,80,.09)}
+.f-num .eco b{color:var(--ok)}
+.f-pe{margin-top:12px;font-size:11.5px;line-height:1.45;color:var(--cinza)}
+/* demonstração no herói */
+.demo{position:relative;height:640px;align-self:end;margin-bottom:calc(-1 * clamp(56px,7vw,96px))}
+.palco{position:absolute;inset:0;pointer-events:none}
+.palco .disco{position:absolute;right:-13%;bottom:-9%;width:98%;aspect-ratio:1;border-radius:50%;background:radial-gradient(circle at 34% 28%,#0E3E9E 0,#001E60 64%)}
+.palco .aro{position:absolute;right:-24%;bottom:-21%;width:120%;aspect-ratio:1;border-radius:50%;border:1.5px solid rgba(48,128,226,.26)}
+.palco .pessoa{position:absolute;right:-7%;bottom:0;height:97%;width:auto;max-width:none;filter:drop-shadow(0 30px 40px rgba(0,30,96,.16))}
+.demo .ficha{position:absolute;left:-2%;top:6px;width:410px;z-index:2;transform:rotate(-1.6deg) scale(.68);transform-origin:top left}
+.demo .f-l:nth-child(3),.demo .f-l:nth-child(4),.demo .f-l:nth-child(6){display:none}
+.demo .f-l{opacity:0;animation:aparece .6s var(--mola) forwards}
+.demo .f-l:nth-child(1){animation-delay:.6s}.demo .f-l:nth-child(2){animation-delay:1.2s}.demo .f-l:nth-child(3){animation-delay:1.8s}.demo .f-l:nth-child(4){animation-delay:2.4s}.demo .f-l:nth-child(5){animation-delay:3s}.demo .f-l:nth-child(6){animation-delay:3.6s}
+.demo .f-num{opacity:0;animation:aparece .7s var(--mola) 4.2s forwards}
+.demo .carimbo{opacity:0;animation:carimba .7s var(--mola) 4.9s forwards}
+@keyframes aparece{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+.demo .digita{border-right:2px solid var(--azul);padding-right:2px;animation:pisca 1s steps(1) infinite}
+@keyframes pisca{50%{border-color:transparent}}
+.demo figcaption{position:absolute;right:0;top:-26px;font-size:12.5px;color:var(--cinza)}
+.chip-voa{position:absolute;display:flex;align-items:center;gap:10px;padding:11px 14px;border-radius:16px;background:var(--navy);color:#fff;box-shadow:var(--sombra2);font-size:13px;line-height:1.3;opacity:0;animation:aparece .8s var(--mola) forwards;z-index:2}
+.chip-voa b{display:block;font:600 14px/1.2 var(--sans)}
+.chip-voa svg{width:18px;height:18px;stroke:#7CF0AE;fill:none;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round}
+.chip-voa.c1{left:2%;bottom:118px;animation-delay:2.1s}
+.chip-voa.c2{right:-5%;bottom:44px;animation-delay:4.4s;background:#fff;color:var(--tinta2)}
+.chip-voa.c2 b{color:var(--navy)}
+.chip-voa.c2 svg{stroke:var(--azul)}
+
+/* ===== seções ===== */
+section{padding-block:clamp(72px,9vw,124px)}
+.cab{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,.8fr);gap:24px 60px;align-items:end;margin-bottom:clamp(36px,5vw,60px)}
+.cab h2{font:650 clamp(32px,3.6vw,52px)/1.04 var(--sans);letter-spacing:-.03em;color:var(--navy);margin-top:16px}
+.cab h2 em.s{color:var(--azul-t)}
+.cab p{font-size:17px;color:var(--tinta2);max-width:34em}
+.claro{background:var(--branco)}
+.escuro{background:var(--navy);color:#fff}
+.escuro .cab h2{color:#fff}.escuro .cab h2 em.s{color:var(--ceu)}.escuro .cab p{color:rgba(255,255,255,.72)}.escuro .rot{color:var(--ceu)}
+.comp{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+.comp div{padding:22px;border-radius:var(--r);background:var(--papel);border:1px solid var(--fio2)}
+.comp svg{width:26px;height:26px;stroke:var(--azul);fill:none;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round;margin-bottom:16px}
+.comp b{display:block;font:600 18px/1.25 var(--sans);letter-spacing:-.01em;color:var(--navy);margin-bottom:6px}
+.comp p{font-size:15px;color:var(--tinta2);line-height:1.55}
+.planos{display:grid;grid-template-columns:1.15fr 1fr 1fr;gap:14px;align-items:stretch}
+.plano{display:flex;flex-direction:column;gap:14px;padding:28px;border-radius:22px;background:var(--branco);border:1px solid var(--fio);box-shadow:var(--sombra)}
+.plano .tit{font:600 14px/1 var(--sans);letter-spacing:.06em;text-transform:uppercase;color:var(--azul-t)}
+.plano .valor{display:flex;align-items:baseline;gap:6px;color:var(--navy)}
+.plano .valor small{font:500 14px/1 var(--sans);color:var(--cinza)}
+.plano .valor b{font:650 44px/1 var(--sans);letter-spacing:-.04em}
+.plano .valor span{font:600 18px/1 var(--sans)}
+.plano .obs{font-size:14px;color:var(--cinza);margin-top:-6px}
+.plano ul{list-style:none;margin:6px 0 0;padding:0;display:grid;gap:10px;font-size:15px;color:var(--tinta2)}
+.plano li{display:grid;grid-template-columns:18px minmax(0,1fr);gap:10px;line-height:1.45}
+.plano li svg{width:18px;height:18px;margin-top:2px;stroke:var(--ok);fill:none;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round}
+.plano .bt{margin-top:auto;width:100%}
+.plano.destaque{background:var(--navy);color:#fff;border-color:var(--navy);box-shadow:0 30px 60px rgba(0,30,96,.28)}
+.plano.destaque .tit{color:var(--ceu)}.plano.destaque .valor{color:#fff}.plano.destaque .valor small,.plano.destaque .obs{color:rgba(255,255,255,.66)}
+.plano.destaque ul{color:rgba(255,255,255,.86)}.plano.destaque li svg{stroke:#5BE09A}
+.avulsos{margin-top:22px;border-radius:22px;background:var(--branco);border:1px solid var(--fio);overflow:hidden}
+.avulsos summary{list-style:none;display:flex;justify-content:space-between;align-items:center;gap:16px;padding:20px 26px;cursor:pointer;font:600 16px/1.3 var(--sans);color:var(--navy)}
+.avulsos summary::-webkit-details-marker{display:none}
+.avulsos summary span{font:500 14px/1 var(--sans);color:var(--azul-t)}
+.avulsos[open] summary .mais{display:none}.avulsos:not([open]) summary .menos{display:none}
+.avulsos table{width:100%;border-collapse:collapse;font-size:15px}
+.avulsos td{padding:13px 26px;border-top:1px solid var(--fio2);color:var(--tinta2)}
+.avulsos td:last-child{text-align:right;color:var(--navy);font-weight:600;white-space:nowrap}
+.fonte{margin-top:14px;font-size:12.5px;color:var(--cinza)}
+/* como funciona com o celular */
+.como{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,.9fr);gap:clamp(30px,6vw,90px);align-items:center}
+.passos{list-style:none;margin:0;padding:0;display:grid;gap:10px;counter-reset:p}
+.passo{display:grid;grid-template-columns:44px minmax(0,1fr);gap:4px 16px;padding:20px;border-radius:var(--r);background:rgba(255,255,255,.05);border:1px solid var(--fio-e)}
+.passo::before{counter-increment:p;content:counter(p);grid-row:1/4;display:grid;place-items:center;width:40px;height:40px;border-radius:50%;background:#fff;color:var(--navy);font:650 15px/1 var(--sans)}
+.passo b{font:600 18px/1.3 var(--sans);letter-spacing:-.01em}
+.passo p{font-size:15px;color:rgba(255,255,255,.72);line-height:1.55}
+.passo small{font:600 11.5px/1 var(--sans);letter-spacing:.08em;text-transform:uppercase;color:var(--ceu);margin-top:6px}
+.cena{position:relative;height:640px;display:grid;place-items:center;margin:0}
+.cena::before{content:"";position:absolute;width:520px;height:520px;border-radius:50%;background:radial-gradient(circle,rgba(142,192,255,.22),rgba(142,192,255,0) 68%)}
+.fone{position:relative;width:300px;height:612px;border-radius:46px;background:#06102B;padding:11px;box-shadow:0 40px 80px rgba(0,0,0,.35),inset 0 0 0 1.5px rgba(255,255,255,.1);transform:rotate(-2.5deg)}
+.fone .tela{position:relative;height:100%;border-radius:36px;background:linear-gradient(180deg,#F7F9FD,#EEF2F9);overflow:hidden;color:var(--tinta)}
+.fone .ilha{position:absolute;top:10px;left:50%;width:92px;height:26px;border-radius:20px;background:#06102B;transform:translateX(-50%);z-index:2}
+.fone .barra{display:flex;justify-content:space-between;padding:14px 22px 0;font:600 12px/1 var(--sans)}
+.app-top{display:flex;align-items:center;justify-content:space-between;padding:22px 18px 10px}
+.app-top svg.wm{width:104px;height:16.3px}
+.app-top .av{width:30px;height:30px;border-radius:50%;background:var(--papel2);display:grid;place-items:center;font:600 12px/1 var(--sans);color:var(--navy)}
+.app-ola{padding:2px 18px 12px}
+.app-ola small{display:block;font-size:12px;color:var(--cinza)}
+.app-ola b{font:650 19px/1.2 var(--sans);letter-spacing:-.02em;color:var(--navy)}
+.prog{margin:0 18px 12px;height:6px;border-radius:9px;background:var(--papel2);overflow:hidden}
+.prog i{display:block;height:100%;width:0;border-radius:9px;background:linear-gradient(90deg,var(--azul),#5B93F0)}
+.cena.in .prog i{animation:enche 6.2s .4s var(--mola) forwards}
+@keyframes enche{to{width:100%}}
+.evts{display:grid;gap:8px;padding:0 12px}
+.evt{display:grid;grid-template-columns:32px minmax(0,1fr) auto;gap:2px 10px;align-items:center;padding:10px 11px;border-radius:14px;background:#fff;border:1px solid var(--fio2);opacity:0;transform:translateY(14px) scale(.98)}
+.cena.in .evt{animation:entra .7s var(--mola) forwards}
+.cena.in .evt:nth-child(1){animation-delay:.5s}.cena.in .evt:nth-child(2){animation-delay:1.7s}.cena.in .evt:nth-child(3){animation-delay:2.9s}.cena.in .evt:nth-child(4){animation-delay:4.1s}.cena.in .evt:nth-child(5){animation-delay:5.3s}
+@keyframes entra{to{opacity:1;transform:none}}
+.evt .bola{grid-row:1/3;width:32px;height:32px;border-radius:10px;display:grid;place-items:center;background:rgba(18,161,80,.12)}
+.evt .bola svg{width:16px;height:16px;stroke:var(--ok);fill:none;stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round}
+.evt .bola.az{background:rgba(47,111,224,.12)}.evt .bola.az svg{stroke:var(--azul)}
+.evt b{font:600 12.5px/1.25 var(--sans)}
+.evt small{grid-column:2;font-size:11px;line-height:1.3;color:var(--cinza)}
+.evt em{grid-row:1/3;grid-column:3;font:600 11.5px/1 var(--sans);font-style:normal;color:var(--navy)}
+.cena figcaption{position:absolute;bottom:-4px;left:0;right:0;text-align:center;font-size:12px;color:rgba(255,255,255,.55)}
+.tres{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+.bloco{display:flex;flex-direction:column;border-radius:22px;background:var(--branco);border:1px solid var(--fio);overflow:hidden}
+.bloco .txt{padding:26px 26px 20px}
+.bloco .txt small{font:600 12px/1 var(--sans);letter-spacing:.12em;text-transform:uppercase;color:var(--azul-t)}
+.bloco .txt b{display:block;font:600 21px/1.2 var(--sans);letter-spacing:-.02em;color:var(--navy);margin:10px 0 8px}
+.bloco .txt p{font-size:15px;color:var(--tinta2)}
+.bloco .novo{display:inline-block;margin-left:8px;padding:3px 8px;border-radius:99px;background:rgba(18,161,80,.12);color:var(--ok);font:600 11px/1.3 var(--sans);letter-spacing:.06em;text-transform:uppercase;vertical-align:2px}
+.bloco .ui{margin-top:auto;padding:18px;background:var(--papel);border-top:1px solid var(--fio2);display:grid;gap:8px;min-height:230px;align-content:start}
+.msg{max-width:86%;padding:10px 12px;border-radius:14px;font-size:13.5px;line-height:1.4;background:#fff;border:1px solid var(--fio2);color:var(--tinta)}
+.msg.eu{justify-self:end;background:#DCF3E4;border-color:#C8E9D4}
+.msg small{display:block;margin-top:4px;font-size:11px;color:var(--cinza)}
+.msg .ok{display:inline-flex;align-items:center;gap:6px;font-weight:600;color:var(--ok)}
+.msg .ok svg{width:14px;height:14px;stroke:var(--ok);fill:none;stroke-width:2.6;stroke-linecap:round;stroke-linejoin:round}
+.campo-ui{display:grid;gap:4px;padding:10px 12px;border-radius:12px;background:#fff;border:1px solid var(--fio2)}
+.campo-ui small{font-size:11px;color:var(--cinza)}
+.campo-ui b{font:600 14px/1.2 var(--sans);color:var(--tinta)}
+.botao-ui{padding:11px;border-radius:12px;background:var(--navy);color:#fff;text-align:center;font:600 13.5px/1 var(--sans)}
+/* calculadora */
+.calc{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,.95fr);gap:14px}
+.calc .ent,.calc .res{padding:clamp(22px,3vw,34px);border-radius:22px;background:var(--branco);border:1px solid var(--fio)}
+.calc .res{background:var(--navy);color:#fff;border-color:var(--navy);display:flex;flex-direction:column;gap:14px}
+.calc label,.calc .gt{display:block;font:600 13px/1.3 var(--sans);color:var(--tinta);margin-bottom:10px}
+.calc .grupo{margin-bottom:24px}
+.seg{display:flex;flex-wrap:wrap;gap:8px}
+.seg label{margin:0;cursor:pointer;position:relative}
+.seg input{position:absolute;opacity:0;width:1px;height:1px}
+.seg span{display:inline-block;padding:10px 14px;border-radius:12px;border:1px solid var(--fio);font:500 14px/1.2 var(--sans);color:var(--tinta2);background:#fff;transition:all .25s}
+.seg span small{display:block;margin-top:3px;font-size:11.5px;color:var(--cinza)}
+.seg input:checked+span{background:var(--navy);border-color:var(--navy);color:#fff}
+.seg input:checked+span small{color:rgba(255,255,255,.7)}
+.seg input:focus-visible+span{outline:2px solid var(--azul);outline-offset:2px}
+.faixa-v{display:flex;align-items:center;gap:14px}
+.faixa-v input[type=range]{flex:1;accent-color:var(--navy);height:28px}
+.faixa-v output{min-width:118px;text-align:right;font:650 18px/1 var(--sans);color:var(--navy)}
+.calc .res small.t{font:600 12px/1 var(--sans);letter-spacing:.12em;text-transform:uppercase;color:var(--ceu)}
+.calc .res .grande{font:650 clamp(40px,4.4vw,60px)/1 var(--sans);letter-spacing:-.04em}
+.calc .res .grande span{font-size:.4em;font-weight:500;letter-spacing:0;color:rgba(255,255,255,.7)}
+.calc .linhas{display:grid;border-top:1px solid var(--fio-e)}
+.calc .linhas div{display:flex;justify-content:space-between;gap:12px;padding:11px 0;border-bottom:1px solid var(--fio-e);font-size:14.5px;color:rgba(255,255,255,.78)}
+.calc .linhas div b{color:#fff;font-weight:600}
+.dica{padding:14px 16px;border-radius:14px;background:rgba(255,255,255,.08);font-size:14px;line-height:1.5;color:rgba(255,255,255,.88)}
+.dica b{color:#7CF0AE}
+.calc .nota{font-size:12px;line-height:1.5;color:rgba(255,255,255,.55);margin-top:auto}
+.faq{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);gap:40px}
+.faq details{border-bottom:1px solid var(--fio)}
+.faq summary{list-style:none;cursor:pointer;display:flex;justify-content:space-between;gap:20px;padding:20px 0;font:600 17px/1.35 var(--sans);color:var(--navy)}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:"+";font:400 24px/1 var(--sans);color:var(--azul);transition:transform .3s}
+.faq details[open] summary::after{transform:rotate(45deg)}
+.faq details p{padding:0 0 20px;color:var(--tinta2);font-size:15.5px;max-width:42em}
+.fim{padding-block:clamp(64px,8vw,110px)}
+.fim .caixa{position:relative;overflow:hidden;border-radius:28px;background:var(--navy);color:#fff;padding:clamp(30px,5vw,64px) clamp(30px,5vw,64px) 0;display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr);gap:30px;align-items:stretch}
+.fim .txt{position:relative;z-index:1;align-self:center;padding-bottom:clamp(30px,5vw,64px)}
+.fim .txt .botoes{margin-top:28px}
+.fim .foto{position:relative;min-height:450px}
+.fim .foto .disco{position:absolute;left:50%;bottom:-22%;width:min(460px,100%);aspect-ratio:1;transform:translateX(-50%);border-radius:50%;background:radial-gradient(circle at 38% 30%,#6AA8F2 0,#3080E2 58%,#2263BF 100%)}
+.fim .foto img{position:absolute;left:50%;bottom:0;transform:translateX(-50%);height:min(500px,110%);width:auto;max-width:none}
+.fim .caixa::after{content:"";position:absolute;right:-120px;top:-120px;width:420px;height:420px;border-radius:50%;background:radial-gradient(circle,rgba(142,192,255,.28),transparent 70%)}
+.fim h2{font:650 clamp(30px,3.4vw,48px)/1.05 var(--sans);letter-spacing:-.03em}
+.fim h2 em.s{color:var(--ceu)}
+.fim p{margin-top:14px;color:rgba(255,255,255,.72);font-size:16.5px}
+.fim .botoes{position:relative;z-index:1;display:grid;gap:12px}
+.porta{position:relative;display:grid;grid-template-columns:46px minmax(0,1fr) 20px;gap:4px 14px;align-items:center;text-align:left;padding:18px;border-radius:var(--r);border:1px solid var(--fio);background:var(--branco);cursor:pointer;text-decoration:none;transition:transform .35s var(--mola),border-color .3s,box-shadow .35s}
+.porta:hover{transform:translateY(-3px);border-color:rgba(47,111,224,.55);box-shadow:var(--sombra2)}
+.porta .ic{grid-row:1/3;width:46px;height:46px;border-radius:13px;background:var(--navy);display:grid;place-items:center}
+.porta .ic svg{width:22px;height:22px;stroke:#fff;fill:none;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
+.porta b{font:600 17.5px/1.2 var(--sans);letter-spacing:-.01em;color:var(--navy)}
+.porta small{grid-column:2;font-size:13.5px;line-height:1.35;color:var(--cinza)}
+.porta small strong{color:var(--tinta);font-weight:600}
+.porta .seta{grid-row:1/3;grid-column:3;width:20px;height:20px;stroke:var(--azul);fill:none;stroke-width:2;transition:transform .35s var(--mola)}
+.porta:hover .seta{transform:translateX(4px)}
+.fim .porta{background:rgba(255,255,255,.06);border-color:var(--fio-e)}
+.fim .porta b{color:#fff}.fim .porta small{color:rgba(255,255,255,.66)}.fim .porta small strong{color:#fff}
+.fim .porta .ic{background:#fff}.fim .porta .ic svg{stroke:var(--navy)}
+.fim .porta .seta{stroke:var(--ceu)}
+.rodape{background:var(--noite);color:rgba(255,255,255,.66);padding:56px 0 30px;font-size:14.5px}
+.rodape .c{display:grid;grid-template-columns:1.3fr 1fr 1fr;gap:30px}
+.rodape svg.wm{width:150px;height:28px;color:#fff;margin-bottom:16px}
+.rodape h4{font:600 12px/1 var(--sans);letter-spacing:.12em;text-transform:uppercase;color:var(--ceu);margin-bottom:14px}
+.rodape a{color:#fff;text-decoration:none;opacity:.86}.rodape a:hover{opacity:1}
+.rodape ul{list-style:none;margin:0;padding:0;display:grid;gap:9px}
+.rodape .base{grid-column:1/-1;display:flex;flex-wrap:wrap;justify-content:space-between;gap:10px;margin-top:20px;padding-top:20px;border-top:1px solid rgba(255,255,255,.1);font-size:12.5px;color:rgba(255,255,255,.42)}
+.wa-fab{position:fixed;right:18px;bottom:calc(18px + env(safe-area-inset-bottom,0px));z-index:40;width:56px;height:56px;border-radius:50%;background:#128C4A;display:grid;place-items:center;box-shadow:0 12px 30px rgba(18,140,74,.35)}
+.wa-fab svg{width:26px;height:26px;fill:#fff}
+.js .rv{opacity:0;transform:translateY(18px);transition:opacity .8s var(--mola),transform .8s var(--mola)}
+.js .rv.in{opacity:1;transform:none}
+
+/* ===== o pedido ao vivo ===== */
+.fx{position:fixed;inset:0;z-index:100;background:var(--papel);display:flex;flex-direction:column}
+.fx-top{flex:none;display:flex;align-items:center;gap:18px;padding:0 var(--g);min-height:66px;background:var(--branco);border-bottom:1px solid var(--fio)}
+.fx-top svg.wm{width:150px;height:23.5px}
+.fx-top .modo{font:600 12px/1 var(--sans);color:var(--cinza);padding-left:16px;border-left:1px solid var(--fio)}
+.fx-prog{flex:1;max-width:360px;margin-left:auto;display:grid;gap:7px}
+.fx-prog small{font:600 12px/1 var(--sans);color:var(--cinza)}
+.fx-prog .tr{height:6px;border-radius:9px;background:var(--papel2);overflow:hidden}
+.fx-prog .tr i{display:block;height:100%;width:0;border-radius:9px;background:var(--azul);transition:width .55s var(--mola)}
+.fecha{width:42px;height:42px;border-radius:12px;border:1px solid var(--fio);background:var(--branco);cursor:pointer;display:grid;place-items:center;flex:none}
+.fecha svg{width:18px;height:18px;stroke:var(--tinta);fill:none;stroke-width:2;stroke-linecap:round}
+.fx-palco{flex:1;min-height:0;display:grid;grid-template-columns:minmax(0,1fr) minmax(400px,480px)}
+.fx-perg{position:relative;overflow:auto;-webkit-overflow-scrolling:touch;display:flex;flex-direction:column}
+.fx-perg form{flex:1;width:min(700px,100% - var(--g)*2);margin:0 auto;padding:clamp(28px,7vh,80px) 0 30px}
+.q{display:grid;gap:22px}
+.q.entra{animation:q-entra .55s var(--mola)}
+.q.volta{animation:q-volta .55s var(--mola)}
+@keyframes q-entra{from{opacity:0;transform:translateY(22px)}to{opacity:1;transform:none}}
+@keyframes q-volta{from{opacity:0;transform:translateY(-22px)}to{opacity:1;transform:none}}
+.q .n{font:600 13px/1 var(--sans);color:var(--azul-t);letter-spacing:.04em}
+.q h2{font:650 clamp(30px,3.4vw,46px)/1.06 var(--sans);letter-spacing:-.03em;color:var(--navy);outline:0}
+.q h2 em.s{color:var(--azul-t)}
+.q .ajuda{font-size:16px;line-height:1.6;color:var(--tinta2);margin-top:-8px}
+.q .fino{font-size:13px;color:var(--cinza);line-height:1.5}
+.opcs{display:grid;gap:10px}
+.opcs.duas{grid-template-columns:1fr 1fr}
+.opc{position:relative;display:grid;grid-template-columns:auto minmax(0,1fr);gap:4px 14px;align-items:center;padding:18px;border-radius:18px;border:1.5px solid var(--fio);background:#fff;cursor:pointer;transition:border-color .25s,box-shadow .25s,transform .25s var(--mola)}
+.opc:hover{border-color:rgba(47,111,224,.5);transform:translateY(-2px)}
+.opc input{position:absolute;opacity:0;width:1px;height:1px}
+.opc .k{grid-row:1/3;display:grid;place-items:center;width:30px;height:30px;border-radius:9px;border:1px solid var(--fio);font:600 13px/1 var(--sans);color:var(--cinza);transition:all .25s}
+.opc b{font:600 17px/1.25 var(--sans);color:var(--navy)}
+.opc small{grid-column:2;font-size:13.5px;color:var(--cinza);line-height:1.4}
+.opc:has(input:checked){border-color:var(--navy);box-shadow:0 0 0 4px rgba(0,30,96,.08)}
+.opc:has(input:checked) .k{background:var(--navy);border-color:var(--navy);color:#fff}
+.opc:has(input:focus-visible){outline:2px solid var(--azul);outline-offset:2px}
+.opc.marcada{border-color:var(--navy);box-shadow:0 0 0 4px rgba(0,30,96,.08)}
+.opc.marcada .k{background:var(--navy);border-color:var(--navy);color:#fff}
+.mini{display:flex;flex-wrap:wrap;gap:8px}
+.mini label{position:relative;cursor:pointer}
+.mini input{position:absolute;opacity:0;width:1px;height:1px}
+.mini span{display:inline-flex;align-items:center;gap:8px;padding:12px 16px;border-radius:13px;border:1.5px solid var(--fio);background:#fff;font:500 15px/1.2 var(--sans);color:var(--tinta2);transition:all .25s}
+.mini span kbd{opacity:.45;border-color:var(--cinza)}
+.mini input:checked+span{background:var(--navy);border-color:var(--navy);color:#fff}
+.mini input:checked+span kbd{border-color:#fff;opacity:.7}
+.mini input:focus-visible+span{outline:2px solid var(--azul);outline-offset:2px}
+.sub-q{display:grid;gap:12px}
+.sub-q .gt{font:600 14px/1.3 var(--sans);color:var(--tinta)}
+.regua{padding:22px;border-radius:20px;background:#fff;border:1px solid var(--fio);display:grid;gap:14px}
+.regua .val{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap}
+.regua .val b{font:650 clamp(34px,4vw,48px)/1 var(--sans);letter-spacing:-.04em;color:var(--navy)}
+.regua .val span{font-size:15px;color:var(--cinza)}
+.regua input[type=range]{width:100%;accent-color:var(--navy);height:30px}
+.regua .marcos{display:flex;justify-content:space-between;font-size:12px;color:var(--cinza)}
+.nao-sei{display:inline-flex;align-items:center;gap:10px;font-size:15px;color:var(--tinta2);cursor:pointer}
+.nao-sei input{width:18px;height:18px;accent-color:var(--navy)}
+.campo{display:grid;gap:7px;font:600 13px/1.2 var(--sans);color:var(--tinta)}
+.fx input.in{width:100%;min-height:54px;padding:12px 15px;border-radius:14px;border:1.5px solid var(--fio);background:#fff;font:400 17px/1.3 var(--sans);color:var(--tinta);transition:border-color .25s,box-shadow .25s;-webkit-appearance:none;appearance:none}
+.fx input.in:focus{outline:0;border-color:var(--azul);box-shadow:0 0 0 5px rgba(47,111,224,.12)}
+.fx input.in[aria-invalid=true]{border-color:var(--erro);box-shadow:0 0 0 4px rgba(194,52,27,.10)}
+.fx input.grande{min-height:62px;font-size:22px;font-weight:500;letter-spacing:.01em}
+.duplo{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.campos{display:grid;gap:14px}
+.busca{position:relative}
+.busca>svg{position:absolute;left:17px;top:50%;width:20px;height:20px;transform:translateY(-50%);stroke:var(--cinza);fill:none;stroke-width:2;stroke-linecap:round}
+.busca input.in{padding-left:48px;font-size:19px;min-height:62px}
+.resultados{list-style:none;margin:-8px 0 0;padding:6px;border-radius:18px;border:1px solid var(--fio);background:#fff;display:grid;gap:2px}
+.resultados:empty{display:none}
+.resultados button{display:grid;grid-template-columns:86px minmax(0,1fr);gap:2px 12px;width:100%;text-align:left;padding:12px;border:0;border-radius:12px;background:none;cursor:pointer}
+.resultados button:hover,.resultados button:focus-visible{background:var(--papel);outline:0}
+.resultados .cod{font:600 12.5px/1.6 var(--sans);color:var(--azul-t)}
+.resultados .ds{font-size:15.5px;line-height:1.4;color:var(--tinta)}
+.resultados .aviso{padding:12px;font-size:14.5px;color:var(--tinta2);display:grid;gap:8px}
+.resultados .aviso button{display:inline;width:auto;padding:0;color:var(--azul-t);font-weight:600;text-decoration:underline;text-underline-offset:3px}
+.escolhidas{display:grid;gap:8px}
+.escolhidas:empty{display:none}
+.escolhida{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:2px 12px;align-items:center;padding:13px 15px;border-radius:14px;border:1px solid var(--fio);background:#fff}
+.escolhida.principal{border-color:var(--navy);box-shadow:inset 3px 0 0 var(--navy)}
+.escolhida .tag{font:600 11px/1.4 var(--sans);letter-spacing:.06em;text-transform:uppercase;color:var(--azul-t)}
+.escolhida b{font:500 15px/1.4 var(--sans)}
+.escolhida button{grid-row:1/3;grid-column:2;border:0;background:none;color:var(--cinza);font-size:13.5px;cursor:pointer;text-decoration:underline;text-underline-offset:3px}
+.indicado{display:grid;gap:10px;padding:24px;border-radius:22px;background:var(--navy);color:#fff;position:relative;overflow:hidden}
+.indicado::after{content:"";position:absolute;right:-60px;top:-60px;width:220px;height:220px;border-radius:50%;background:radial-gradient(circle,rgba(142,192,255,.3),transparent 70%)}
+.indicado small{font:600 11.5px/1 var(--sans);letter-spacing:.12em;text-transform:uppercase;color:#7CF0AE}
+.indicado b{font:650 clamp(24px,2.6vw,32px)/1.1 var(--sans);letter-spacing:-.02em}
+.indicado p{font-size:15px;line-height:1.6;color:rgba(255,255,255,.8);max-width:36em}
+.indicado ul{list-style:none;margin:6px 0 0;padding:0;display:grid;gap:6px;font-size:14px;color:rgba(255,255,255,.85)}
+.indicado li{display:flex;gap:8px}
+.indicado li svg{width:16px;height:16px;flex:none;margin-top:3px;stroke:#7CF0AE;fill:none;stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round}
+.troca-form{display:flex;flex-wrap:wrap;gap:8px;align-items:center;font-size:14px;color:var(--cinza)}
+.empresa-card{display:grid;gap:10px;padding:18px 20px;border-radius:18px;border:1px solid rgba(18,161,80,.35);background:rgba(18,161,80,.05)}
+.empresa-card .t{display:flex;align-items:center;gap:8px;font:600 11.5px/1 var(--sans);letter-spacing:.12em;text-transform:uppercase;color:var(--ok)}
+.empresa-card .t svg{width:15px;height:15px;stroke:var(--ok);fill:none;stroke-width:2.6;stroke-linecap:round;stroke-linejoin:round}
+.empresa-card b{font:650 19px/1.25 var(--sans);color:var(--navy)}
+.raiox{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.raiox>div{padding:18px;border-radius:18px;background:#fff;border:1px solid var(--fio)}
+.raiox small{display:block;font:600 11px/1.3 var(--sans);letter-spacing:.08em;text-transform:uppercase;color:var(--cinza);margin-bottom:8px}
+.raiox b{font:650 26px/1.1 var(--sans);letter-spacing:-.03em;color:var(--navy)}
+.raiox b span{font-size:13px;font-weight:500;color:var(--cinza);letter-spacing:0}
+.raiox p{margin-top:6px;font-size:13px;color:var(--cinza);line-height:1.4}
+.raiox .eco{grid-column:1/-1;background:rgba(18,161,80,.08);border-color:rgba(18,161,80,.3)}
+.raiox .eco b{color:var(--ok)}
+.acomp{padding:20px 22px;border-radius:18px;background:rgba(18,161,80,.07);border:1px solid rgba(18,161,80,.3)}
+.aceita,.mao{padding:20px 22px;border-radius:18px;background:#fff;border:1px solid var(--fio)}
+.aceita h3,.mao h3{font:600 12px/1 var(--sans);letter-spacing:.12em;text-transform:uppercase;color:var(--cinza);margin-bottom:12px}
+.aceita ul,.mao ul{list-style:none;margin:0;padding:0;display:grid;gap:9px;font-size:15px;line-height:1.45;color:var(--tinta)}
+.aceita li,.mao li{display:grid;grid-template-columns:18px minmax(0,1fr);gap:10px}
+.aceita li svg,.mao li svg{width:16px;height:16px;margin-top:3px;stroke:var(--ok);fill:none;stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round}
+.mao li svg{stroke:var(--azul)}
+.aceite{display:grid;grid-template-columns:22px minmax(0,1fr);gap:12px;align-items:start;padding:16px;border-radius:16px;background:#fff;border:1px solid var(--fio);font-size:14.5px;line-height:1.55;color:var(--tinta);cursor:pointer}
+.aceite input{width:19px;height:19px;margin:2px 0 0;accent-color:var(--navy)}
+.erro{color:var(--erro);font-size:14.5px;font-weight:500}
+.erro:empty{display:none}
+.fx-nav{position:sticky;bottom:0;z-index:2;margin-top:auto;padding:16px var(--g) calc(16px + env(safe-area-inset-bottom,0px));background:linear-gradient(rgba(245,247,251,0),var(--papel) 34%)}
+.fx-nav .in-nav{width:min(700px,100%);margin:0 auto;display:flex;align-items:center;gap:14px}
+.fx-nav .bt{margin-left:auto;min-width:210px}
+.fx-nav .erro{flex:1;text-align:right}
+.fx-ficha{overflow:auto;background:var(--papel2);border-left:1px solid var(--fio);padding:clamp(20px,3vh,36px) 28px 36px}
+.fx-ficha .rot-f{display:flex;justify-content:space-between;align-items:center;margin-bottom:14px;font:600 12px/1 var(--sans);letter-spacing:.12em;text-transform:uppercase;color:var(--cinza)}
+.fx-ficha .rot-f button{border:0;background:none;color:var(--azul-t);font:600 12.5px/1 var(--sans);letter-spacing:0;text-transform:none;cursor:pointer}
+.alca{display:none}
+.feito-q .prot{display:inline-block;font:600 14px/1 var(--sans);letter-spacing:.08em;padding:9px 12px;border-radius:10px;background:#fff;border:1px solid var(--fio);color:var(--navy)}
+.linha{list-style:none;margin:0;padding:0;display:grid}
+.linha li{position:relative;display:grid;grid-template-columns:30px minmax(0,1fr);gap:2px 14px;padding-bottom:18px}
+.linha li::before{content:"";width:14px;height:14px;border-radius:50%;border:2px solid var(--fio);background:#fff;margin:5px auto 0;grid-row:1/3;position:relative;z-index:1}
+.linha li::after{content:"";position:absolute;left:14px;top:21px;bottom:0;width:2px;background:var(--fio2)}
+.linha li:last-child::after{display:none}
+.linha li.ok::before{background:var(--ok);border-color:var(--ok)}
+.linha li.vez::before{border-color:var(--azul);box-shadow:0 0 0 5px rgba(47,111,224,.15)}
+.linha b{font:600 16px/1.35 var(--sans);color:var(--navy)}
+.linha small{grid-column:2;font-size:13.5px;color:var(--cinza)}
+
+/* responsivo */
+@media(max-width:1080px){
+  .menu{display:none;position:absolute;top:100%;left:0;right:0;flex-direction:column;gap:0;padding:8px var(--g) 18px;background:var(--branco);border-bottom:1px solid var(--fio);box-shadow:var(--sombra)}
+  .menu.aberto{display:flex}
+  .menu a{font-size:18px;padding:14px 4px;border-bottom:1px solid var(--fio2);border-radius:0}
+  .abre{display:grid}
+  .topo .acoes .leve{display:none}
+  .fx-palco{grid-template-columns:minmax(0,1fr) 380px}
+}
+@media(max-width:980px){
+  .heroi .c{grid-template-columns:1fr}
+  .demo{max-width:520px;margin:10px auto calc(-1 * clamp(56px,7vw,96px));width:100%;height:540px}
+  .demo .ficha{width:410px;transform:rotate(-1.6deg) scale(.62)}
+  .fim .foto{min-height:380px}
+  .chip-voa.c1{left:0}.chip-voa.c2{right:-6px}
+  .planos{grid-template-columns:1fr}
+  .tres,.comp{grid-template-columns:1fr 1fr}
+  .como,.calc,.faq,.fim .caixa,.cab{grid-template-columns:1fr}
+  .fx-palco{grid-template-columns:1fr}
+  .fx-perg form{padding-bottom:20px}
+  .fx-nav{padding-bottom:calc(92px + env(safe-area-inset-bottom,0px))}
+  .fx-ficha{position:fixed;left:0;right:0;bottom:0;z-index:5;height:84px;padding:0;border:0;border-radius:22px 22px 0 0;background:var(--papel2);box-shadow:0 -12px 40px rgba(0,19,61,.18);overflow:hidden;transition:height .45s var(--mola)}
+  .fx-ficha.aberta{height:86vh;overflow:auto}
+  .fx-ficha .rot-f{display:none}
+  .fx-ficha .ficha{margin:0 14px 24px;box-shadow:none}
+  .alca{display:grid;grid-template-columns:46px minmax(0,1fr) 22px;gap:2px 12px;align-items:center;width:100%;min-height:84px;padding:12px 18px calc(12px + env(safe-area-inset-bottom,0px));border:0;background:none;text-align:left;cursor:pointer;position:sticky;top:0;z-index:2;background:var(--papel2)}
+  .alca .anel{grid-row:1/3;margin:0}
+  .alca b{font:600 15px/1.2 var(--sans);color:var(--navy)}
+  .alca small{grid-column:2;font-size:13px;color:var(--tinta2);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .alca svg.sv{grid-row:1/3;grid-column:3;width:20px;height:20px;stroke:var(--navy);fill:none;stroke-width:2;transition:transform .35s}
+  .fx-ficha.aberta .alca svg.sv{transform:rotate(180deg)}
+}
+@media(max-width:640px){
+  .tres,.comp,.opcs.duas,.raiox{grid-template-columns:1fr}
+  .duplo{grid-template-columns:1fr}
+  .heroi h1{font-size:clamp(36px,10.5vw,48px)}
+  .campo-cmd{flex-wrap:wrap;padding:6px}
+  .campo-cmd>svg{display:none}
+  .campo-cmd input{padding:12px 10px;font-size:17px}
+  .campo-cmd .bt{width:100%}
+  .abas{width:100%}.abas button{flex:1}
+  .sugestoes button{grid-template-columns:1fr 18px}.sugestoes .cod{grid-column:1}.sugestoes svg{grid-row:1/3;grid-column:2}
+  .sugestoes .emp{grid-template-columns:36px 1fr 18px}
+  .demo{height:auto;margin-top:18px;margin-bottom:0}
+  .palco{position:relative;height:400px;inset:auto}
+  .palco .disco{left:50%;right:auto;width:330px;transform:translateX(-50%)}
+  .palco .aro{display:none}
+  .palco .pessoa{left:50%;right:auto;transform:translateX(-50%);height:100%}
+  .demo .ficha{position:relative;left:auto;top:auto;width:auto;margin-top:-120px;transform:none;padding:18px}
+  .demo figcaption{position:static;display:block;margin-top:10px;text-align:right}
+  .fim .foto{min-height:340px}
+  .f-l{grid-template-columns:1fr;gap:0}
+  .f-razao{padding-right:0;margin-top:34px}
+  .carimbo{top:58px;right:14px}
+  .chip-voa{display:none}
+  .fone{transform:scale(.92) rotate(-2deg)}
+  .rodape .c{grid-template-columns:1fr}
+  .topo .c{gap:10px}.marca svg.wm{width:132px;height:20.7px}.topo .acoes .bt.peq{padding:0 14px;min-height:40px}
+  .fx-top .modo{display:none}
+  .fx-top svg.wm{width:118px;height:18.5px}
+  .fx-nav .bt{min-width:0;flex:1}
+  .fx-nav .bt kbd{display:none}
+  .q h2{font-size:clamp(28px,8vw,36px)}
+}
+@media(hover:none){.mini span kbd{display:none}.opc .k{font-size:0}.opc .k::after{content:"";width:10px;height:10px;border-radius:50%;background:transparent}.opc:has(input:checked) .k::after{background:#fff}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}.demo .f-l,.demo .f-num,.demo .carimbo,.chip-voa,.evt{opacity:1;transform:none}.prog i{width:100%}}
+@media print{
+  body *{visibility:hidden}
+  #ficha,#ficha *{visibility:visible}
+  #ficha{position:absolute;left:0;top:0;width:100%;box-shadow:none}
+}
+</style>
+<script>document.documentElement.classList.add('js')</script>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs><symbol id="logo-apport" viewBox="28 30 1880 350"><g> <path d="M234.58 139.5c-5.2-20.23-16.4-38.05-31.59-51.46-5.11-4.51-10.68-8.52-16.61-11.96-15.14-8.76-32.72-13.77-51.46-13.77-28.42 0-54.15 11.52-72.77 30.14-18.63 18.62-30.14 44.35-30.14 72.77s11.52 54.15 30.14 72.77 44.35 30.14 72.77 30.14c18.74 0 36.32-5.01 51.46-13.77v13.77h51.46V165.22c0-8.89-1.13-17.51-3.25-25.73Zm-63.28 62.11c-9.31 9.31-22.17 15.07-36.38 15.07s-27.08-5.76-36.38-15.07c-9.31-9.31-15.07-22.18-15.07-36.38s5.76-27.07 15.07-36.38 22.17-15.07 36.38-15.07c28.42 0 51.46 23.04 51.46 51.46 0 14.21-5.76 27.07-15.07 36.38Z" fill="currentColor"></path> <path d="M439.23 92.46c-18.63-18.62-44.35-30.14-72.77-30.14-18.75 0-36.32 5.01-51.46 13.77-5.94 3.44-11.51 7.45-16.61 11.96-15.19 13.4-26.39 31.23-31.59 51.46-2.12 8.22-3.25 16.84-3.25 25.73v154.37h51.46v-65.23c15.13 8.76 32.71 13.77 51.46 13.77 28.41 0 54.14-11.52 72.77-30.14 18.62-18.62 30.14-44.35 30.14-72.77s-11.52-54.15-30.14-72.77Zm-36.38 109.15c-9.31 9.31-22.17 15.07-36.38 15.07s-27.08-5.76-36.38-15.07c-9.31-9.31-15.07-22.18-15.07-36.38 0-28.42 23.04-51.46 51.46-51.46 14.21 0 27.08 5.76 36.38 15.07 9.31 9.31 15.07 22.18 15.07 36.38s-5.76 27.07-15.07 36.38Z" fill="currentColor"></path> <path d="M1061.11 62.31v51.46h-51.46v154.37h-51.46V113.77c0-28.42 23.04-51.46 51.46-51.46z" fill="currentColor"></path> <path d="M1138.29 216.68h51.46v51.46h-51.46c-28.42 0-51.46-23.04-51.46-51.46V36.6h51.46v25.71h51.46v51.46h-51.46z" fill="currentColor"></path> <path d="M670.78 92.46c-18.63-18.62-44.35-30.14-72.77-30.14-18.75 0-36.32 5.01-51.46 13.77-5.94 3.44-11.51 7.45-16.61 11.96-15.19 13.4-26.39 31.23-31.59 51.46-2.12 8.22-3.25 16.84-3.25 25.73v154.37h51.46v-65.23c15.13 8.76 32.71 13.77 51.46 13.77 28.41 0 54.14-11.52 72.77-30.14 18.62-18.62 30.14-44.35 30.14-72.77s-11.52-54.15-30.14-72.77ZM634.4 201.61c-9.31 9.31-22.17 15.07-36.38 15.07s-27.08-5.76-36.38-15.07c-9.31-9.31-15.07-22.18-15.07-36.38 0-28.42 23.04-51.46 51.46-51.46 14.21 0 27.08 5.76 36.38 15.07 9.31 9.31 15.07 22.18 15.07 36.38s-5.76 27.07-15.07 36.38Z" fill="currentColor"></path> <path d="M902.33 92.46c-18.63-18.62-44.35-30.14-72.77-30.14-56.84 0-102.91 46.07-102.91 102.91 0 28.42 11.52 54.15 30.14 72.77s44.35 30.14 72.77 30.14 54.14-11.52 72.77-30.14c18.62-18.62 30.14-44.35 30.14-72.77s-11.52-54.15-30.14-72.77m-36.38 109.15c-9.31 9.31-22.17 15.07-36.38 15.07s-27.08-5.76-36.38-15.07c-9.31-9.31-15.07-22.18-15.07-36.38 0-28.42 23.04-51.46 51.46-51.46 14.21 0 27.08 5.76 36.38 15.07 9.31 9.31 15.07 22.18 15.07 36.38s-5.76 27.07-15.07 36.38Z" fill="currentColor"></path> <path d="M1656.45 165.22v102.91h-51.46V165.22c0-28.42-23.04-51.46-51.46-51.46-14.21 0-27.08 5.76-36.38 15.07-9.31 9.31-15.07 22.18-15.07 36.38v102.91h-51.46V165.21c0-8.89 1.13-17.51 3.25-25.73 4.65-18.08 14.09-34.24 26.9-47.04a103.5 103.5 0 0 1 21.32-16.37c15.13-8.76 32.71-13.77 51.46-13.77s36.32 5.01 51.46 13.77c5.94 3.44 11.5 7.45 16.61 11.96 15.19 13.4 26.39 31.23 31.59 51.46 2.12 8.22 3.25 16.84 3.25 25.73Z" fill="currentColor"></path> <path d="M1394.76 92.46c-18.63-18.62-44.35-30.14-72.77-30.14-56.84 0-102.91 46.07-102.91 102.91 0 28.42 11.52 54.15 30.14 72.77s44.35 30.14 72.77 30.14 54.14-11.52 72.77-30.14c18.62-18.62 30.14-44.35 30.14-72.77s-11.52-54.15-30.14-72.77m-36.39 109.15c-9.31 9.31-22.17 15.07-36.38 15.07s-27.08-5.76-36.38-15.07c-9.31-9.31-15.07-22.18-15.07-36.38 0-28.42 23.04-51.46 51.46-51.46 14.21 0 27.08 5.76 36.38 15.07 9.31 9.31 15.07 22.18 15.07 36.38s-5.76 27.07-15.07 36.38Z" fill="currentColor"></path> <path d="M1829.65 190.95a51.2 51.2 0 0 1-8.18 10.66c-9.31 9.31-22.17 15.07-36.38 15.07s-27.08-5.76-36.38-15.07a51.2 51.2 0 0 1-8.18-10.66 51.2 51.2 0 0 1-6.89-25.73h154.37c0-8.89-1.13-17.51-3.25-25.73-4.65-18.08-14.09-34.24-26.9-47.04a104 104 0 0 0-21.31-16.37c-15.14-8.76-32.72-13.77-51.46-13.77-56.84 0-102.91 46.07-102.91 102.91 0 28.42 11.52 54.15 30.14 72.77s44.35 30.14 72.77 30.14c18.74 0 36.32-5.01 51.46-13.77 5.94-3.44 11.5-7.45 16.61-11.96 1.61-1.43 3.18-2.9 4.7-4.41 12.8-12.8 22.24-28.96 26.9-47.04h-55.1Zm-44.56-77.18c14.21 0 27.08 5.76 36.38 15.07 3.17 3.17 5.93 6.75 8.18 10.66h-89.13c8.89-15.38 25.52-25.73 44.57-25.73" fill="currentColor"></path> <text transform="translate(538 355.47)" fill="currentColor" font-family="AcuminPro-Bold,&quot;Acumin Pro&quot;" font-size="86.63" font-weight="700"><tspan y="0" x="0" letter-spacing=".22em"> G</tspan><tspan y="0" x="124.65" letter-spacing=".23em">E</tspan><tspan y="0" x="198.29" letter-spacing=".22em">S</tspan><tspan y="0" x="272.09" letter-spacing=".15em">T</tspan><tspan y="0" x="335.85" letter-spacing=".21em">Ã</tspan><tspan y="0" x="413.47" letter-spacing=".22em">O EM</tspan><tspan y="0" x="708.26" letter-spacing=".21em">P</tspan><tspan y="0" x="783.28" letter-spacing=".23em">R</tspan><tspan y="0" x="860.37" letter-spacing=".23em">E</tspan><tspan y="0" x="934" letter-spacing=".23em">S</tspan><tspan y="0" x="1008.85" letter-spacing=".22em">A</tspan><tspan y="0" x="1087.33" letter-spacing=".23em">R</tspan><tspan y="0" x="1164.43" letter-spacing=".22em">I</tspan><tspan y="0" x="1210.86" letter-spacing=".22em">A</tspan><tspan y="0" x="1289.34" letter-spacing=".22em">L</tspan></text> </g></symbol></defs></svg>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
+<symbol id="logo-online" viewBox="28 -44.61 2277.03 368.21"><g style="fill:var(--lo-a,#001E60)"><path transform="translate(0.00 0)" d="M234.58 139.5c-5.2-20.23-16.4-38.05-31.59-51.46-5.11-4.51-10.68-8.52-16.61-11.96-15.14-8.76-32.72-13.77-51.46-13.77-28.42 0-54.15 11.52-72.77 30.14-18.63 18.62-30.14 44.35-30.14 72.77s11.52 54.15 30.14 72.77 44.35 30.14 72.77 30.14c18.74 0 36.32-5.01 51.46-13.77v13.77h51.46V165.22c0-8.89-1.13-17.51-3.25-25.73Zm-63.28 62.11c-9.31 9.31-22.17 15.07-36.38 15.07s-27.08-5.76-36.38-15.07c-9.31-9.31-15.07-22.18-15.07-36.38s5.76-27.07 15.07-36.38 22.17-15.07 36.38-15.07c28.42 0 51.46 23.04 51.46 51.46 0 14.21-5.76 27.07-15.07 36.38Z"/><path transform="translate(-0.07 0)" d="M439.23 92.46c-18.63-18.62-44.35-30.14-72.77-30.14-18.75 0-36.32 5.01-51.46 13.77-5.94 3.44-11.51 7.45-16.61 11.96-15.19 13.4-26.39 31.23-31.59 51.46-2.12 8.22-3.25 16.84-3.25 25.73v154.37h51.46v-65.23c15.13 8.76 32.71 13.77 51.46 13.77 28.41 0 54.14-11.52 72.77-30.14 18.62-18.62 30.14-44.35 30.14-72.77s-11.52-54.15-30.14-72.77Zm-36.38 109.15c-9.31 9.31-22.17 15.07-36.38 15.07s-27.08-5.76-36.38-15.07c-9.31-9.31-15.07-22.18-15.07-36.38 0-28.42 23.04-51.46 51.46-51.46 14.21 0 27.08 5.76 36.38 15.07 9.31 9.31 15.07 22.18 15.07 36.38s-5.76 27.07-15.07 36.38Z"/><path transform="translate(-0.04 0)" d="M670.78 92.46c-18.63-18.62-44.35-30.14-72.77-30.14-18.75 0-36.32 5.01-51.46 13.77-5.94 3.44-11.51 7.45-16.61 11.96-15.19 13.4-26.39 31.23-31.59 51.46-2.12 8.22-3.25 16.84-3.25 25.73v154.37h51.46v-65.23c15.13 8.76 32.71 13.77 51.46 13.77 28.41 0 54.14-11.52 72.77-30.14 18.62-18.62 30.14-44.35 30.14-72.77s-11.52-54.15-30.14-72.77ZM634.4 201.61c-9.31 9.31-22.17 15.07-36.38 15.07s-27.08-5.76-36.38-15.07c-9.31-9.31-15.07-22.18-15.07-36.38 0-28.42 23.04-51.46 51.46-51.46 14.21 0 27.08 5.76 36.38 15.07 9.31 9.31 15.07 22.18 15.07 36.38s-5.76 27.07-15.07 36.38Z"/><path transform="translate(-0.11 0)" d="M902.33 92.46c-18.63-18.62-44.35-30.14-72.77-30.14-56.84 0-102.91 46.07-102.91 102.91 0 28.42 11.52 54.15 30.14 72.77s44.35 30.14 72.77 30.14 54.14-11.52 72.77-30.14c18.62-18.62 30.14-44.35 30.14-72.77s-11.52-54.15-30.14-72.77m-36.38 109.15c-9.31 9.31-22.17 15.07-36.38 15.07s-27.08-5.76-36.38-15.07c-9.31-9.31-15.07-22.18-15.07-36.38 0-28.42 23.04-51.46 51.46-51.46 14.21 0 27.08 5.76 36.38 15.07 9.31 9.31 15.07 22.18 15.07 36.38s-5.76 27.07-15.07 36.38Z"/><path transform="translate(-0.08 0)" d="M1061.11 62.31v51.46h-51.46v154.37h-51.46V113.77c0-28.42 23.04-51.46 51.46-51.46z"/><path transform="translate(-0.05 0)" d="M1138.29 216.68h51.46v51.46h-51.46c-28.42 0-51.46-23.04-51.46-51.46V36.6h51.46v25.71h51.46v51.46h-51.46z"/><path transform="translate(-3.72 0)" d="M1394.76 92.46c-18.63-18.62-44.35-30.14-72.77-30.14-56.84 0-102.91 46.07-102.91 102.91 0 28.42 11.52 54.15 30.14 72.77s44.35 30.14 72.77 30.14 54.14-11.52 72.77-30.14c18.62-18.62 30.14-44.35 30.14-72.77s-11.52-54.15-30.14-72.77m-36.39 109.15c-9.31 9.31-22.17 15.07-36.38 15.07s-27.08-5.76-36.38-15.07c-9.31-9.31-15.07-22.18-15.07-36.38 0-28.42 23.04-51.46 51.46-51.46 14.21 0 27.08 5.76 36.38 15.07 9.31 9.31 15.07 22.18 15.07 36.38s-5.76 27.07-15.07 36.38Z"/><path transform="translate(-3.69 0)" d="M1656.45 165.22v102.91h-51.46V165.22c0-28.42-23.04-51.46-51.46-51.46-14.21 0-27.08 5.76-36.38 15.07-9.31 9.31-15.07 22.18-15.07 36.38v102.91h-51.46V165.21c0-8.89 1.13-17.51 3.25-25.73 4.65-18.08 14.09-34.24 26.9-47.04a103.5 103.5 0 0 1 21.32-16.37c15.13-8.76 32.71-13.77 51.46-13.77s36.32 5.01 51.46 13.77c5.94 3.44 11.5 7.45 16.61 11.96 15.19 13.4 26.39 31.23 31.59 51.46 2.12 8.22 3.25 16.84 3.25 25.73Z"/><path transform="translate(-3.76 0)" d="M1829.65 190.95a51.2 51.2 0 0 1-8.18 10.66c-9.31 9.31-22.17 15.07-36.38 15.07s-27.08-5.76-36.38-15.07a51.2 51.2 0 0 1-8.18-10.66 51.2 51.2 0 0 1-6.89-25.73h154.37c0-8.89-1.13-17.51-3.25-25.73-4.65-18.08-14.09-34.24-26.9-47.04a104 104 0 0 0-21.31-16.37c-15.14-8.76-32.72-13.77-51.46-13.77-56.84 0-102.91 46.07-102.91 102.91 0 28.42 11.52 54.15 30.14 72.77s44.35 30.14 72.77 30.14c18.74 0 36.32-5.01 51.46-13.77 5.94-3.44 11.5-7.45 16.61-11.96 1.61-1.43 3.18-2.9 4.7-4.41 12.8-12.8 22.24-28.96 26.9-47.04h-55.1Zm-44.56-77.18c14.21 0 27.08 5.76 36.38 15.07 3.17 3.17 5.93 6.75 8.18 10.66h-89.13c8.89-15.38 25.52-25.73 44.57-25.73"/></g><g style="fill:var(--lo-o,#2F6FE0)"><path d="M2069.50 62.31 h-51.46 V268.14 h-51.46 v51.46 h51.46 c28.42 0 51.46-23.04 51.46-51.46 Z"/><path transform="translate(2063.23 0)" d="M234.58 139.5c-5.2-20.23-16.4-38.05-31.59-51.46-5.11-4.51-10.68-8.52-16.61-11.96-15.14-8.76-32.72-13.77-51.46-13.77-28.42 0-54.15 11.52-72.77 30.14-18.63 18.62-30.14 44.35-30.14 72.77s11.52 54.15 30.14 72.77 44.35 30.14 72.77 30.14c18.74 0 36.32-5.01 51.46-13.77v13.77h51.46V165.22c0-8.89-1.13-17.51-3.25-25.73Zm-63.28 62.11c-9.31 9.31-22.17 15.07-36.38 15.07s-27.08-5.76-36.38-15.07c-9.31-9.31-15.07-22.18-15.07-36.38s5.76-27.07 15.07-36.38 22.17-15.07 36.38-15.07c28.42 0 51.46 23.04 51.46 51.46 0 14.21-5.76 27.07-15.07 36.38Z"/><path d="M2164.44 36.58 L2215.90 36.58 L2247.81 -22.60 L2196.35 -22.60 Z"/></g><circle cx="2043.77" cy="10.85" r="25.73" style="fill:var(--lo-p,#12A150)"/></symbol>
+<symbol id="i-abrir" viewBox="0 0 24 24"><path d="M3 21h18M5 21V9l7-5 7 5v12M9 21v-6h6v6M12 4v3"/></symbol>
+<symbol id="i-trocar" viewBox="0 0 24 24"><path d="M7 7h12l-3-3M17 17H5l3 3M19 7v4M5 17v-4"/></symbol>
+<symbol id="i-papo" viewBox="0 0 24 24"><path d="M20 12a8 8 0 0 1-11.6 7.1L4 20l.9-4.3A8 8 0 1 1 20 12z"/></symbol>
+<symbol id="i-seta" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+<symbol id="i-ok" viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5"/></symbol>
+<symbol id="i-busca" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></symbol>
+<symbol id="i-nota" viewBox="0 0 24 24"><path d="M7 3h7l5 5v13H7zM14 3v5h5M10 13h6M10 17h6"/></symbol>
+<symbol id="i-escudo" viewBox="0 0 24 24"><path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6z"/><path d="M8.5 12l2.5 2.5 4.5-5"/></symbol>
+<symbol id="i-preco" viewBox="0 0 24 24"><path d="M3 12l9-9h8v8l-9 9z"/><circle cx="15.5" cy="8.5" r="1.5"/></symbol>
+<symbol id="i-pessoa" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21c1.5-4 4.5-6 8-6s6.5 2 8 6"/></symbol>
+<symbol id="i-local" viewBox="0 0 24 24"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></symbol>
+<symbol id="i-relogio" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></symbol>
+<symbol id="i-fabrica" viewBox="0 0 24 24"><path d="M3 21V10l6 3V10l6 3V6l6 3v12zM7 17h2M12 17h2M17 17h2"/></symbol>
+<symbol id="i-fecha" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></symbol>
+<symbol id="i-cima" viewBox="0 0 24 24"><path d="M6 15l6-6 6 6"/></symbol>
+<symbol id="i-grupo" viewBox="0 0 24 24"><circle cx="9" cy="8" r="3.5"/><circle cx="17" cy="9" r="2.5"/><path d="M2.5 20c1-3.5 3.6-5.5 6.5-5.5s5.5 2 6.5 5.5M15 14.6c2.6.1 4.9 1.8 5.9 5.4"/></symbol>
+</defs></svg>
+<div class="previa">Prévia · Apport One Já · <b>versão para aprovação</b></div>
+<header class="topo"><div class="c">
+<a class="marca" href="#topo" aria-label="Apport One Já, início"><svg class="wm" role="img" aria-label="Apport One Já"><use href="#logo-online"/></svg></a>
+<nav class="menu" id="menu" aria-label="Principal"><a href="#precos">Preços</a><a href="#como">Como funciona</a><a href="#tudo">O que você recebe</a><a href="#calculadora">Calculadora</a><a href="#duvidas">Dúvidas</a><a href="https://sistema.apport.anvilmarketing.com.br/abertura/entrar">Minha área</a></nav>
+<div class="acoes"><a class="bt leve peq" href="https://wa.me/555135970440?text=Ol%C3%A1%2C%20Apport!%20Vim%20pelo%20Apport%20One%20J%C3%A1." target="_blank" rel="noopener">Falar no WhatsApp</a><button class="bt peq" type="button" data-inicia="">Começar</button></div>
+<button class="abre" type="button" aria-expanded="false" aria-controls="menu" aria-label="Abrir menu"><span></span><span></span><span></span></button>
+</div></header>
+
+<main id="topo">
+<section class="heroi"><div class="c">
+<div>
+<span class="rot"><i aria-hidden="true"></i>Contabilidade online · Campo Bom, RS</span>
+<h1>Sua empresa aberta e em dia. <em class="s">Começa aqui.</em></h1>
+<p class="sub">Responda poucas perguntas e veja a ficha da sua empresa se montar na hora, com o imposto estimado e o preço. Sem cadastro para começar.</p>
+<div class="comando" id="comando">
+<div class="abas" role="tablist" aria-label="O que você quer fazer">
+<button type="button" role="tab" aria-selected="true" data-aba="abrir">Abrir empresa</button>
+<button type="button" role="tab" aria-selected="false" data-aba="trocar">Já tenho CNPJ</button>
+</div>
+<div class="campo-cmd"><svg aria-hidden="true"><use href="#i-busca"/></svg><label class="sr" for="hq" id="hq-rot">O que a sua empresa vai fazer?</label><input id="hq" type="text" autocomplete="off" enterkeyhint="go" placeholder="O que a sua empresa vai fazer?" aria-controls="hq-res"><button class="bt" type="button" id="hq-ir">Começar</button></div>
+<ul class="sugestoes" id="hq-res" aria-live="polite"></ul>
+<p class="cmd-dica" id="hq-dica">Tente: <button type="button" data-ex="salão de beleza">salão de beleza</button><button type="button" data-ex="loja de roupas">loja de roupas</button><button type="button" data-ex="desenvolvimento de software">software</button><button type="button" data-ex="marmita">marmita</button></p>
+<div class="retomar" id="retomar" hidden><span id="retomar-txt">Você tem um pedido em andamento.</span><button type="button" id="retomar-bt">Continuar</button></div>
+</div>
+<div class="provas"><span><svg aria-hidden="true"><use href="#i-ok"/></svg>Preço na tela, sem asterisco</span><span><svg aria-hidden="true"><use href="#i-ok"/></svg>Fidelidade de 6 meses, não 12</span><span><svg aria-hidden="true"><use href="#i-ok"/></svg>Escritório em Campo Bom</span></div>
+</div>
+<figure class="demo" aria-label="Exemplo ilustrativo da ficha da empresa se montando">
+<div class="palco" aria-hidden="true"><span class="aro"></span><span class="disco"></span><img class="pessoa" src="online/img/empreendedora.webp" alt="" width="890" height="1300" fetchpriority="high" decoding="async"></div>
+<div class="chip-voa c1"><svg aria-hidden="true"><use href="#i-ok"/></svg><span><b>Formato indicado</b>sem você precisar saber</span></div>
+<div class="ficha">
+<div class="f-top"><svg class="wm" aria-hidden="true"><use href="#logo-online"/></svg><span class="f-tit">Ficha da empresa</span><span class="anel"><svg viewBox="0 0 46 46"><circle class="t" cx="23" cy="23" r="19"/><circle class="p" cx="23" cy="23" r="19" stroke-dasharray="119.4" stroke-dashoffset="18"/></svg><b>85%</b></span></div>
+<span class="carimbo">Rascunho</span>
+<p class="f-rot">Razão social</p>
+<p class="f-razao">STUDIO BELA FORMA LTDA<span class="digita"></span></p>
+<p class="f-sub">Nome fantasia: Bela Forma</p>
+<dl class="f-linhas">
+<div class="f-l"><dt>Atividade</dt><dd>9602-5/01 · Cabeleireiros, manicure e pedicure</dd></div>
+<div class="f-l"><dt>Formato</dt><dd>Sociedade Limitada Unipessoal · ME</dd></div>
+<div class="f-l"><dt>Sócios</dt><dd>Você, 100%</dd></div>
+<div class="f-l"><dt>Sede</dt><dd>R. Carlos Lauer, 60 · Campo Bom/RS</dd></div>
+<div class="f-l"><dt>Regime</dt><dd>Simples Nacional · Anexo III</dd></div>
+<div class="f-l"><dt>Prazo</dt><dd>Informado na proposta</dd></div>
+</dl>
+<div class="f-num"><div><small>Imposto estimado</small><b>R$ 900<span>/mês</span></b><p>faturando R$ 15 mil</p></div><div><small>Na Apport</small><b>R$ 99,90</b><p>+ a partir de R$ 399,90/mês</p></div></div>
+</div>
+<div class="chip-voa c2"><svg aria-hidden="true"><use href="#i-nota"/></svg><span><b>Imposto na hora</b>pelas tabelas de 2026</span></div>
+<figcaption>Exemplo ilustrativo</figcaption>
+</figure>
+</div></section>
+
+<section class="claro"><div class="c">
+<div class="cab"><div><span class="rot">Nossos compromissos</span><h2>Digital como as online. <em class="s">Perto</em> como um escritório.</h2></div><p>O que você recebe da Apport, escrito antes de você assinar qualquer coisa.</p></div>
+<div class="comp">
+<div class="rv"><svg aria-hidden="true"><use href="#i-preco"/></svg><b>Preço na tela</b><p>Abertura e troca por R$ 99,90. Contabilidade a partir de R$ 399,90 por mês. Sem asterisco.</p></div>
+<div class="rv"><svg aria-hidden="true"><use href="#i-escudo"/></svg><b>Fidelidade de 6 meses</b><p>Na abertura e na troca de contador. Nada de contrato de um ano com multa escondida.</p></div>
+<div class="rv"><svg aria-hidden="true"><use href="#i-pessoa"/></svg><b>Contador com nome</b><p>Você fala com quem cuida da sua empresa, pelo WhatsApp, de segunda a sexta, das 8h às 18h.</p></div>
+<div class="rv"><svg aria-hidden="true"><use href="#i-fabrica"/></svg><b>Comércio e indústria também</b><p>Custo de produto, NCM e planejamento tributário. Não é só para quem presta serviço.</p></div>
+<div class="rv"><svg aria-hidden="true"><use href="#i-local"/></svg><b>Escritório em Campo Bom</b><p>Tudo online. Quando quiser olho no olho, é só marcar no Centro de Campo Bom.</p></div>
+<div class="rv"><svg aria-hidden="true"><use href="#i-nota"/></svg><b>Nota fiscal no celular</b><p>Sistema de gestão e nota fiscal com a marca da Apport. 60 dias grátis para começar.</p></div>
+</div>
+</div></section>
+
+<section id="precos"><div class="c">
+<div class="cab"><div><span class="rot">Preços</span><h2>Quanto custa, <em class="s">sem letra miúda</em>.</h2></div><p>Os mesmos valores da nossa página de serviços. A mensalidade muda com o regime, os funcionários e o volume de notas: o valor exato vem na proposta, antes de qualquer pagamento.</p></div>
+<div class="planos">
+<div class="plano destaque rv"><span class="tit">Contabilidade online</span><div class="valor"><small>a partir de</small><span>R$</span><b>399,90</b><small>/mês</small></div><p class="obs">Gestão contábil completa, 100% online</p>
+<ul><li><svg aria-hidden="true"><use href="#i-ok"/></svg>Contabilidade, impostos e folha em dia</li><li><svg aria-hidden="true"><use href="#i-ok"/></svg>Contador que atende pelo nome, no WhatsApp</li><li><svg aria-hidden="true"><use href="#i-ok"/></svg>Sistema de gestão e nota fiscal com a marca da Apport</li><li><svg aria-hidden="true"><use href="#i-ok"/></svg>Reunião no escritório quando você quiser</li></ul>
+<button class="bt branco" type="button" data-inicia="">Começar agora</button></div>
+<div class="plano rv"><span class="tit">Abrir empresa</span><div class="valor"><span>R$</span><b>99,90</b><small>valor único</small></div><p class="obs">ME e EPP · mais as taxas públicas da sua cidade</p>
+<ul><li><svg aria-hidden="true"><use href="#i-ok"/></svg>Pedido em 5 minutos, pelo site</li><li><svg aria-hidden="true"><use href="#i-ok"/></svg>Prefeitura, Junta Comercial e Receita com a gente</li><li><svg aria-hidden="true"><use href="#i-ok"/></svg>Você acompanha cada etapa</li><li><svg aria-hidden="true"><use href="#i-ok"/></svg>Fidelidade de 6 meses</li></ul>
+<button class="bt leve" type="button" data-inicia="abrir">Abrir minha empresa</button></div>
+<div class="plano rv"><span class="tit">Trocar de contador</span><div class="valor"><span>R$</span><b>99,90</b><small>valor único</small></div><p class="obs">Para quem já tem CNPJ</p>
+<ul><li><svg aria-hidden="true"><use href="#i-ok"/></svg>Digite o CNPJ e a empresa aparece</li><li><svg aria-hidden="true"><use href="#i-ok"/></svg>Raio-x do imposto que você paga hoje</li><li><svg aria-hidden="true"><use href="#i-ok"/></svg>Suporte em cada etapa da troca</li><li><svg aria-hidden="true"><use href="#i-ok"/></svg>Fidelidade de 6 meses</li></ul>
+<button class="bt leve" type="button" data-inicia="trocar">Trocar de contador</button></div>
+</div>
+<details class="avulsos rv"><summary>Serviços avulsos, todos com preço<span><span class="mais">Ver a tabela</span><span class="menos">Fechar</span></span></summary>
+<table><tbody>
+<tr><td>Consulta de 60 minutos com especialista</td><td>R$ 249,90</td></tr>
+<tr><td>Diagnóstico tributário + reforma tributária (até 3 NCMs)</td><td>R$ 199,90</td></tr>
+<tr><td>Diagnóstico tributário + reforma tributária (de 4 a 10 NCMs)</td><td>R$ 299,90</td></tr>
+<tr><td>Reforma tributária (IBS e CBS) e Simples híbrido</td><td>a partir de R$ 299,90</td></tr>
+<tr><td>Regularização da empresa · MEI</td><td>R$ 249,90</td></tr>
+<tr><td>Regularização da empresa · Simples Nacional</td><td>R$ 399,90</td></tr>
+<tr><td>Regularização da empresa · regime geral</td><td>R$ 599,90</td></tr>
+<tr><td>Planejamento tributário (até 10 NCMs)</td><td>a partir de R$ 599,90</td></tr>
+<tr><td>BPO financeiro · contas a pagar e receber</td><td>a partir de R$ 690,90</td></tr>
+<tr><td>Formação do custo do produto (até 10 produtos)</td><td>a partir de R$ 799,90</td></tr>
+</tbody></table></details>
+<p class="fonte">Valores da página de serviços da Apport, outubro de 2026.</p>
+</div></section>
+
+<section class="escuro" id="como"><div class="c como">
+<div>
+<div class="cab" style="grid-template-columns:1fr"><div><span class="rot">Como funciona</span><h2>Do pedido à primeira nota, <em class="s">sem fila</em>.</h2></div><p>Você preenche uma vez. A gente faz a burocracia e avisa a cada etapa que termina.</p></div>
+<ol class="passos">
+<li class="passo rv"><b>Você pede</b><p>Atividade, endereço e nome da empresa, ou só o CNPJ se for trocar de contador.</p><small>5 minutos</small></li>
+<li class="passo rv"><b>A gente responde</b><p>Proposta no WhatsApp com prazo e valor final. Nada é cobrado antes do seu sim.</p><small>no mesmo dia útil</small></li>
+<li class="passo rv"><b>A gente faz</b><p>Prefeitura, Junta Comercial e Receita, ou a troca com o seu contador atual.</p><small>você acompanha cada etapa</small></li>
+<li class="passo rv"><b>Você vende</b><p>Nota fiscal pelo celular, impostos calculados e um contador para chamar quando precisar.</p><small>com a marca da Apport</small></li>
+</ol>
+</div>
+<figure class="cena" id="cena" aria-label="Exemplo ilustrativo: acompanhamento da abertura no celular">
+<div class="fone"><div class="ilha"></div><div class="tela">
+<div class="barra"><span>9:41</span><span>5G</span></div>
+<div class="app-top"><svg class="wm" aria-hidden="true"><use href="#logo-online"/></svg><span class="av">BF</span></div>
+<div class="app-ola"><small>Sua empresa</small><b>Bela Forma Estética</b></div>
+<div class="prog"><i></i></div>
+<div class="evts">
+<div class="evt"><span class="bola"><svg aria-hidden="true"><use href="#i-ok"/></svg></span><b>Pedido recebido</b><small>pelo site, em 5 minutos</small><em>seg</em></div>
+<div class="evt"><span class="bola"><svg aria-hidden="true"><use href="#i-ok"/></svg></span><b>Viabilidade aprovada</b><small>prefeitura de Campo Bom</small><em>ter</em></div>
+<div class="evt"><span class="bola"><svg aria-hidden="true"><use href="#i-ok"/></svg></span><b>CNPJ emitido</b><small>61.•••.•••/0001-••</small><em>qui</em></div>
+<div class="evt"><span class="bola az"><svg aria-hidden="true"><use href="#i-nota"/></svg></span><b>Primeira nota emitida</b><small>R$ 1.200,00 · pelo celular</small><em>sex</em></div>
+<div class="evt"><span class="bola az"><svg aria-hidden="true"><use href="#i-relogio"/></svg></span><b>DAS de novembro</b><small>R$ 72,00 · vence 20/11</small><em>agora</em></div>
+</div>
+</div></div>
+<figcaption>Exemplo ilustrativo</figcaption>
+</figure>
+</div></section>
+
+<section class="claro" id="tudo"><div class="c">
+<div class="cab"><div><span class="rot">O que você recebe</span><h2>Um contador, um sistema e um assistente. <em class="s">No mesmo lugar</em>.</h2></div><p>O atendimento humano da Apport, o sistema de gestão com a nossa marca e, chegando agora, um assistente que emite nota pelo WhatsApp a qualquer hora.</p></div>
+<div class="tres">
+<div class="bloco rv"><div class="txt"><small>Seu contador</small><b>Gente que conhece a sua empresa</b><p>Dúvida de imposto, folha ou nota: você chama no WhatsApp e quem responde é da Apport.</p></div>
+<div class="ui"><div class="msg eu">Posso contratar uma pessoa ainda este mês?<small>10:12</small></div><div class="msg">Pode sim. Já te mando o custo total com encargos e o que muda no seu Simples.<small>10:14 · Apport</small></div></div></div>
+<div class="bloco rv"><div class="txt"><small>Seu sistema</small><b>Nota fiscal em três toques</b><p>Gestão, financeiro e nota fiscal com a marca da Apport. 60 dias grátis, depois a partir de R$ 59 por mês.</p></div>
+<div class="ui"><div class="campo-ui"><small>Tomador</small><b>Padaria Silva Ltda</b></div><div class="campo-ui"><small>Serviço</small><b>Consultoria em gestão</b></div><div class="campo-ui"><small>Valor</small><b>R$ 1.200,00</b></div><div class="botao-ui">Emitir nota</div></div></div>
+<div class="bloco rv"><div class="txt"><small>Seu assistente<span class="novo">Novo</span></small><b>Pediu, conferiu, emitiu</b><p>Peça a nota pelo WhatsApp, até de madrugada. O assistente confere os dados com você, emite e manda o arquivo.</p></div>
+<div class="ui"><div class="msg eu">Preciso de uma nota de 1.200 pra Padaria Silva<small>23:40</small></div><div class="msg">Confere: Padaria Silva Ltda, consultoria em gestão, R$ 1.200,00. Posso emitir?<small>23:40 · assistente</small></div><div class="msg eu">Pode<small>23:41</small></div><div class="msg"><span class="ok"><svg aria-hidden="true"><use href="#i-ok"/></svg>Nota emitida</span> PDF e XML aqui.<small>23:41 · assistente</small></div></div></div>
+</div>
+</div></section>
+
+<section id="calculadora"><div class="c">
+<div class="cab"><div><span class="rot">Calculadora</span><h2>Quanto vai sair o <em class="s">seu imposto</em>?</h2></div><p>Simule o DAS do Simples Nacional em segundos, sem cadastro. Se a sua atividade cai no Anexo V, a calculadora mostra quanto o Fator R pode economizar.</p></div>
+<div class="calc">
+<div class="ent rv">
+<div class="grupo"><span class="gt" id="c-ativ">O que a empresa faz</span>
+<div class="seg" role="radiogroup" aria-labelledby="c-ativ">
+<label><input type="radio" name="c-tipo" value="servicos" checked><span>Serviços em geral<small>salão, oficina, agência</small></span></label>
+<label><input type="radio" name="c-tipo" value="intelectual"><span>Serviços técnicos<small>TI, consultoria, saúde</small></span></label>
+<label><input type="radio" name="c-tipo" value="comercio"><span>Comércio<small>loja, revenda, restaurante</small></span></label>
+<label><input type="radio" name="c-tipo" value="industria"><span>Indústria<small>fabricação</small></span></label>
+<label><input type="radio" name="c-tipo" value="construcao"><span>Obras e limpeza<small>construção, vigilância</small></span></label>
+</div></div>
+<div class="grupo"><label for="c-fat">Faturamento por mês</label><div class="faixa-v"><input type="range" id="c-fat" min="2000" max="200000" step="500" value="15000"><output for="c-fat" id="c-fat-v">R$ 15.000</output></div></div>
+<div class="grupo" id="c-folha-g"><label for="c-folha">Folha por mês, com pró-labore</label><div class="faixa-v"><input type="range" id="c-folha" min="0" max="80000" step="250" value="1500"><output for="c-folha" id="c-folha-v">R$ 1.500</output></div></div>
+</div>
+<div class="res rv" aria-live="polite">
+<small class="t">Imposto estimado (DAS)</small>
+<div class="grande" id="c-total">R$ 0<span>/mês</span></div>
+<div class="linhas"><div><span>Anexo do Simples</span><b id="c-anexo">III</b></div><div><span>Alíquota efetiva</span><b id="c-ef">6,00%</b></div><div><span>Por ano</span><b id="c-ano">R$ 0</b></div></div>
+<div class="dica" id="c-dica" hidden></div>
+<p class="nota">Estimativa com as tabelas do Simples Nacional em vigor em 2026 (LC 123/2006, Anexos I a V), usando o faturamento do mês vezes 12 como receita dos últimos 12 meses. Não considera substituição tributária, produtos monofásicos nem a reforma tributária de 2027. A Apport confere o seu caso.</p>
+<button class="bt branco" type="button" data-inicia="">Quero a Apport cuidando disso</button>
+</div>
+</div>
+</div></section>
+
+<section class="claro" id="duvidas"><div class="c faq">
+<div><span class="rot">Dúvidas</span><div class="cab" style="margin:0"><div><h2>Antes de <em class="s">começar</em>.</h2></div></div></div>
+<div>
+<details><summary>Quanto custa, de verdade?</summary><p>Abrir a empresa custa R$ 99,90, mais as taxas públicas. Na Junta Comercial do RS, o contrato social custa R$ 205,02 pela tabela de 2026, e sai sem custo quando cabe o contrato padrão do registro automático. A taxa da prefeitura depende da cidade e da atividade, e informamos antes. Trocar de contador custa R$ 99,90. A contabilidade online começa em R$ 399,90 por mês e o valor exato depende do regime, dos funcionários e do volume de notas. Tudo vem na proposta, antes de qualquer pagamento.</p></details>
+<details><summary>Tem fidelidade?</summary><p>Sim, de 6 meses na abertura e na troca de contador. É metade do que costuma ser exigido nas contabilidades online.</p></details>
+<details><summary>Preciso ir ao escritório?</summary><p>Não. Tudo é feito online e pelo WhatsApp. Se quiser conversar pessoalmente, atendemos no Centro de Campo Bom, de segunda a sexta, das 8h às 18h.</p></details>
+<details><summary>Quanto tempo leva para abrir a empresa?</summary><p>Depende da prefeitura e da Junta Comercial da sua cidade. Na proposta, passamos a previsão para o seu caso e você acompanha cada etapa até o CNPJ.</p></details>
+<details><summary>Posso ser MEI?</summary><p>O MEI é para quem trabalha sozinho, fatura até <span data-mei>R$ 81 mil</span> por ano, tem no máximo um funcionário e exerce uma atividade permitida. O pedido no site já indica se é possível e nós confirmamos.</p></details>
+<details><summary>Como funciona a troca de contador?</summary><p>Você digita o CNPJ, confirma os dados da empresa e vê um raio-x do imposto que paga hoje. Nós conduzimos a troca etapa por etapa, sem parar a emissão das suas notas.</p></details>
+<details><summary>Que sistema eu vou usar?</summary><p>Um sistema de gestão e nota fiscal com a marca da Apport: vendas, financeiro, estoque e nota fiscal. São 60 dias grátis para começar, depois a partir de R$ 59 por mês.</p></details>
+</div>
+</div></section>
+
+<section class="fim"><div class="c"><div class="caixa">
+<div class="txt"><h2>Sua empresa em dia, <em class="s">a partir de hoje</em>.</h2><p>Escolha por onde começar. Leva poucos minutos e você vê o preço antes de qualquer compromisso.</p>
+<div class="botoes">
+<button class="porta" type="button" data-inicia="abrir"><span class="ic"><svg aria-hidden="true"><use href="#i-abrir"/></svg></span><b>Abrir minha empresa</b><small><strong>R$ 99,90</strong> · 5 minutos para pedir</small><svg class="seta" aria-hidden="true"><use href="#i-seta"/></svg></button>
+<button class="porta" type="button" data-inicia="trocar"><span class="ic"><svg aria-hidden="true"><use href="#i-trocar"/></svg></span><b>Trocar de contador</b><small><strong>R$ 99,90</strong> · com raio-x do seu imposto</small><svg class="seta" aria-hidden="true"><use href="#i-seta"/></svg></button>
+</div>
+</div>
+<div class="foto" aria-hidden="true"><span class="disco"></span><img src="online/img/empresario.webp" alt="" width="768" height="1200" loading="lazy" decoding="async"></div>
+</div></div></section>
+</main>
+
+<footer class="rodape"><div class="c">
+<div><svg class="wm" role="img" aria-label="Apport One"><use href="#logo-apport"/></svg><p>Apport One Já é o serviço digital da Apport One Contabilidade.<br>R. Carlos Lauer, 60 · Centro · Campo Bom, RS</p></div>
+<div><h4>Fale com a gente</h4><ul><li><a href="https://wa.me/555135970440?text=Ol%C3%A1%2C%20Apport!%20Vim%20pelo%20Apport%20One%20J%C3%A1." target="_blank" rel="noopener">WhatsApp (51) 3597-0440</a></li><li><a href="mailto:suporte@apportcontabilidade.com.br">suporte@apportcontabilidade.com.br</a></li><li>Segunda a sexta, 8h às 18h</li></ul></div>
+<div><h4>Apport One Já</h4><ul><li><a href="#precos">Preços</a></li><li><a href="#como">Como funciona</a></li><li><a href="#calculadora">Calculadora do Simples</a></li><li><a href="https://apportcontabilidade.com.br/" target="_blank" rel="noopener">Site da Apport</a></li></ul></div>
+<div class="base"><span>Apport One Contabilidade · Campo Bom, RS</span><span>Prévia desenvolvida pela Anvil Marketing.</span></div>
+</div></footer>
+<a class="wa-fab" href="https://wa.me/555135970440?text=Ol%C3%A1%2C%20Apport!%20Vim%20pelo%20Apport%20One%20J%C3%A1." target="_blank" rel="noopener" aria-label="Conversar no WhatsApp"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M17.47 14.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.26-.46-2.4-1.48-.89-.79-1.49-1.77-1.66-2.07-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.03-.52-.07-.15-.67-1.62-.92-2.22-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.79.37-.27.3-1.04 1.02-1.04 2.48s1.07 2.88 1.21 3.08c.15.2 2.1 3.2 5.08 4.49.71.31 1.26.49 1.69.63.71.23 1.36.2 1.87.12.57-.08 1.76-.72 2-1.41.25-.7.25-1.29.17-1.41-.07-.13-.27-.2-.57-.35M12.04 21.5h-.01a9.4 9.4 0 0 1-4.79-1.31l-.34-.2-3.56.93.95-3.47-.22-.36a9.38 9.38 0 0 1-1.44-5.01c0-5.19 4.23-9.41 9.42-9.41a9.36 9.36 0 0 1 6.66 2.76 9.35 9.35 0 0 1 2.75 6.66c0 5.19-4.23 9.41-9.42 9.41M20.05 3.98A11.3 11.3 0 0 0 12.04.7C5.8.7.72 5.78.72 12.02c0 2 .52 3.94 1.51 5.66L.62 23.5l5.96-1.56a11.3 11.3 0 0 0 5.46 1.39h.01c6.24 0 11.32-5.08 11.32-11.32 0-3.02-1.18-5.87-3.32-8.01"/></svg></a>
+
+<!-- ===== o pedido ao vivo ===== -->
+<div class="fx" id="fx" hidden role="dialog" aria-modal="true" aria-label="Pedido no Apport One Já">
+<div class="fx-top"><svg class="wm" role="img" aria-label="Apport One Já"><use href="#logo-online"/></svg><span class="modo" id="fx-modo">Abrir empresa</span>
+<div class="fx-prog"><small id="fx-conta">Pergunta 1</small><div class="tr"><i id="fx-barra"></i></div></div>
+<button class="fecha" type="button" id="fx-fecha" aria-label="Fechar e guardar o pedido"><svg aria-hidden="true"><use href="#i-fecha"/></svg></button></div>
+<div class="fx-palco">
+<div class="fx-perg" id="fx-perg">
+<form id="fx-form" novalidate>
+<input class="sr" type="text" id="isca" tabindex="-1" autocomplete="off" aria-hidden="true">
+
+<section class="q" data-q="porta" hidden>
+<p class="n">Para começar</p>
+<h2>O que você quer <em class="s">fazer</em>?</h2>
+<div class="opcs">
+<button class="opc" type="button" data-porta="abrir"><span class="k">1</span><b>Abrir minha empresa</b><small>R$ 99,90 · atividade, formato, endereço e nome</small></button>
+<button class="opc" type="button" data-porta="trocar"><span class="k">2</span><b>Trocar de contador</b><small>R$ 99,90 · digite o CNPJ e veja o raio-x do seu imposto</small></button>
+<a class="opc" href="https://wa.me/555135970440?text=Ol%C3%A1%2C%20Apport!%20Quero%20conversar%20antes%20de%20decidir." target="_blank" rel="noopener" style="text-decoration:none"><span class="k">3</span><b>Prefiro conversar antes</b><small>Um especialista da Apport responde no WhatsApp</small></a>
+</div>
+</section>
+
+<section class="q" data-q="atividade" hidden>
+<p class="n" data-n></p>
+<h2>O que a sua empresa vai <em class="s">fazer</em>?</h2>
+<p class="ajuda">Escreva do seu jeito. A gente encontra o código oficial da atividade.</p>
+<div class="busca"><svg aria-hidden="true"><use href="#i-busca"/></svg><label class="sr" for="q">Atividade</label><input class="in" id="q" type="search" autocomplete="off" enterkeyhint="search" placeholder="salão de beleza, loja de roupas..." aria-controls="resultados"></div>
+<ul id="resultados" class="resultados" aria-label="Atividades encontradas" aria-live="polite"></ul>
+<div id="escolhidas" class="escolhidas"></div>
+<p class="fino">Lista oficial de atividades do IBGE (CNAE). Pode juntar até seis.</p>
+</section>
+
+<section class="q" data-q="pessoas" hidden>
+<p class="n" data-n></p>
+<h2>Quem vai estar <em class="s">com você</em>?</h2>
+<div class="sub-q"><p class="gt" id="g-socios">Sócios</p>
+<div class="opcs duas" role="radiogroup" aria-labelledby="g-socios">
+<label class="opc"><input type="radio" name="socios" value="1"><span class="k">1</span><b>Só eu</b><small>Um dono só</small></label>
+<label class="opc"><input type="radio" name="socios" value="2"><span class="k">2</span><b>Eu e mais sócios</b><small>Dois ou mais donos</small></label>
+</div>
+<label class="campo" id="qtd-socios" hidden style="max-width:260px">Quantos sócios no total, contando você?<input class="in" type="number" name="nsocios" min="2" max="30" inputmode="numeric"></label></div>
+<div class="sub-q"><p class="gt" id="g-func">Funcionários no começo</p>
+<div class="mini" role="radiogroup" aria-labelledby="g-func"><label><input type="radio" name="func" value="0"><span><kbd>3</kbd>Nenhum</span></label><label><input type="radio" name="func" value="1"><span><kbd>4</kbd>Um</span></label><label><input type="radio" name="func" value="2"><span><kbd>5</kbd>Dois ou mais</span></label></div></div>
+</section>
+
+<section class="q" data-q="faturamento" hidden>
+<p class="n" data-n></p>
+<h2>Quanto pretende <em class="s">faturar</em> por mês?</h2>
+<p class="ajuda">Uma estimativa basta. A ficha ao lado já calcula o imposto.</p>
+<div class="regua"><div class="val"><b id="fat-v">R$ 15.000</b><span>por mês</span></div>
+<input type="range" name="fat" id="fat" min="0" max="150000" step="500" value="15000" aria-label="Faturamento por mês">
+<div class="marcos"><span>R$ 0</span><span>R$ 6.750 (limite do MEI)</span><span>R$ 150 mil</span></div></div>
+<label class="nao-sei"><input type="checkbox" name="fatNaoSei">Ainda não sei</label>
+</section>
+
+<section class="q" data-q="formato" hidden>
+<p class="n" data-n></p>
+<h2>O formato <em class="s">certo</em> para você.</h2>
+<div id="indicado"></div>
+<div class="troca-form" id="troca-form"></div>
+</section>
+
+<section class="q" data-q="endereco" hidden>
+<p class="n" data-n></p>
+<h2>Onde a empresa vai <em class="s">funcionar</em>?</h2>
+<div class="mini" role="radiogroup" aria-label="Tipo de endereço"><label><input type="radio" name="local" value="casa"><span><kbd>1</kbd>Na minha casa</span></label><label><input type="radio" name="local" value="sala"><span><kbd>2</kbd>Sala, loja ou galpão</span></label><label><input type="radio" name="local" value="nao"><span><kbd>3</kbd>Ainda não tenho</span></label></div>
+<div class="campos" id="end" hidden>
+<div class="duplo"><label class="campo">CEP<input class="in" name="cep" inputmode="numeric" autocomplete="postal-code" placeholder="00000-000" maxlength="9"></label><label class="campo">Número<input class="in" name="num" autocomplete="off"></label></div>
+<label class="campo">Rua<input class="in" name="rua" autocomplete="address-line1"></label>
+<div class="duplo"><label class="campo">Bairro<input class="in" name="bairro" autocomplete="off"></label><label class="campo">Complemento<input class="in" name="compl" placeholder="Sala, andar (opcional)" autocomplete="address-line2"></label></div>
+<div class="duplo"><label class="campo">Cidade<input class="in" name="cidade" autocomplete="address-level2"></label><label class="campo">UF<input class="in" name="uf" maxlength="2" autocomplete="address-level1"></label></div>
+<p class="fino" id="cep-msg" aria-live="polite"></p>
+</div>
+<p class="ajuda" id="local-dica" style="margin:0"></p>
+</section>
+
+<section class="q" data-q="nome" hidden>
+<p class="n" data-n></p>
+<h2>Como ela vai se <em class="s">chamar</em>?</h2>
+<p class="ajuda" id="nome-ajuda">A Junta Comercial só aceita nome que ainda não existe. Mande três opções, em ordem de preferência.</p>
+<div class="campos" id="nomes-ltda"><label class="campo">1ª opção<input class="in grande" name="nome1" autocomplete="organization" placeholder="Studio Bela Forma"></label><div class="duplo"><label class="campo">2ª opção<input class="in" name="nome2" autocomplete="off"></label><label class="campo">3ª opção<input class="in" name="nome3" autocomplete="off"></label></div></div>
+<label class="campo">Nome fantasia (opcional)<input class="in" name="fantasia" placeholder="Como os clientes vão conhecer a empresa" autocomplete="off"></label>
+</section>
+
+<section class="q" data-q="cnpj" hidden>
+<p class="n" data-n></p>
+<h2>Qual é o CNPJ da <em class="s">empresa</em>?</h2>
+<p class="ajuda">Digite e a empresa aparece, com os dados públicos da Receita Federal.</p>
+<label class="sr" for="cnpj">CNPJ</label><input class="in grande" id="cnpj" name="cnpj" inputmode="numeric" placeholder="00.000.000/0000-00" maxlength="18" autocomplete="off">
+<div id="empresa" aria-live="polite"></div>
+</section>
+
+<section class="q" data-q="numeros" hidden>
+<p class="n" data-n></p>
+<h2>O raio-x do seu <em class="s">imposto</em>.</h2>
+<p class="ajuda">Mexa nos valores e veja quanto você paga hoje e quanto pode pagar com a Apport.</p>
+<div class="regua"><div class="val"><b id="tfat-v">R$ 30.000</b><span>faturamento por mês</span></div><input type="range" name="fat" id="tfat" min="2000" max="300000" step="500" value="30000" aria-label="Faturamento por mês"></div>
+<div class="regua" id="folha-box"><div class="val"><b id="folha-v">R$ 3.000</b><span>folha por mês, com pró-labore</span></div><input type="range" name="folha" id="folha" min="0" max="120000" step="250" value="3000" aria-label="Folha por mês com pró-labore"></div>
+<div class="raiox" id="raiox"></div>
+</section>
+
+<section class="q" data-q="equipe" hidden>
+<p class="n" data-n></p>
+<h2>E a <em class="s">equipe</em>?</h2>
+<div class="sub-q"><p class="gt" id="g-tfunc">Funcionários hoje</p><div class="mini" role="radiogroup" aria-labelledby="g-tfunc"><label><input type="radio" name="tfunc" value="0"><span><kbd>1</kbd>Nenhum</span></label><label><input type="radio" name="tfunc" value="1"><span><kbd>2</kbd>De 1 a 3</span></label><label><input type="radio" name="tfunc" value="2"><span><kbd>3</kbd>4 ou mais</span></label></div></div>
+<div class="sub-q"><p class="gt" id="g-mot">O que mais pesa para trocar? (opcional)</p><div class="mini" aria-labelledby="g-mot"><label><input type="checkbox" name="motivo" value="Atendimento demorado"><span>Atendimento demorado</span></label><label><input type="checkbox" name="motivo" value="Preço"><span>Preço</span></label><label><input type="checkbox" name="motivo" value="Quero um sistema de nota"><span>Quero um sistema de nota</span></label><label><input type="checkbox" name="motivo" value="Quero atendimento perto"><span>Quero atendimento perto</span></label><label><input type="checkbox" name="motivo" value="Pagando imposto demais"><span>Pagando imposto demais</span></label></div></div>
+</section>
+
+<section class="q" data-q="voce" hidden>
+<p class="n" data-n></p>
+<h2>Agora, <em class="s">você</em>.</h2>
+<p class="ajuda">Para mandarmos a proposta. Nada é cobrado agora.</p>
+<div class="campos"><label class="campo">Nome completo<input class="in" name="pessoa" autocomplete="name"></label>
+<div class="duplo"><label class="campo" id="l-cpf">CPF<input class="in" name="cpf" inputmode="numeric" placeholder="000.000.000-00" maxlength="14" autocomplete="off"></label><label class="campo">WhatsApp<input class="in" name="zap" inputmode="tel" autocomplete="tel" placeholder="(51) 90000-0000" maxlength="16"></label></div>
+<label class="campo">E-mail<input class="in" name="email" type="email" autocomplete="email" inputmode="email"></label></div>
+<p class="fino" id="socios-dica" hidden>Os dados dos outros sócios nós pedimos depois, pelo WhatsApp.</p>
+</section>
+
+<section class="q" data-q="revisao" hidden>
+<p class="n" data-n></p>
+<h2>Sua ficha está <em class="s">pronta</em>.</h2>
+<p class="ajuda">Confira a ficha ao lado. Se algo estiver errado, volte e ajuste: nada se perde.</p>
+<div class="aceita" id="aceita"></div>
+<label class="aceite"><input type="checkbox" name="aceite"><span>Li e concordo: vi os valores, a fidelidade de 6 meses na abertura ou na troca, e autorizo a Apport One Contabilidade a usar estes dados para preparar a minha proposta e falar comigo pelo WhatsApp e pelo e-mail.</span></label>
+<p class="fino">Ao enviar, abrimos o WhatsApp da Apport com a ficha pronta. É só mandar.</p>
+</section>
+
+<section class="q feito-q" data-q="feito" hidden>
+<span class="rot" id="feito-rot"><i aria-hidden="true"></i>Ficha enviada para o WhatsApp</span>
+<h2 id="feito-tit">Agora é só <em class="s">mandar</em>.</h2>
+<p class="ajuda" style="margin:0" id="feito-txt">Abrimos a conversa com a Apport com a sua ficha. Envie a mensagem e respondemos com o prazo e o valor final.</p>
+<div class="acomp" id="acomp" hidden><p class="ajuda" style="margin:0 0 12px">Acompanhe cada etapa por este link. Ele também vai na mensagem do WhatsApp.</p><div style="display:flex;flex-wrap:wrap;gap:12px"><a class="bt" id="acomp-link" href="#" target="_blank" rel="noopener">Acompanhar meu pedido</a><button class="bt leve" type="button" id="acomp-copia">Copiar link</button></div></div>
+<p>Protocolo <span class="prot" id="protocolo">AP</span></p>
+<div style="display:flex;flex-wrap:wrap;gap:12px"><a class="bt zap" id="wa-de-novo" href="#" target="_blank" rel="noopener">Abrir o WhatsApp de novo</a><button class="bt leve" type="button" id="imprime">Salvar a ficha em PDF</button></div>
+<div class="mao" id="mao"></div>
+<p class="gt" style="font:600 13px/1 var(--sans);color:var(--cinza);margin-top:8px">O que vem depois</p>
+<ol class="linha" id="linha"></ol>
+<button class="lk" type="button" id="outro">Fazer outro pedido</button>
+<p class="fino" id="feito-previa">Prévia: nesta versão o pedido segue pelo WhatsApp. Na versão final, cada etapa aparece aqui e você recebe aviso a cada mudança.</p>
+</section>
+
+</form>
+<div class="fx-nav" id="fx-nav"><div class="in-nav"><button type="button" class="lk" id="fx-volta">← Voltar</button><p class="erro" id="erro" role="alert"></p><button type="button" class="bt" id="fx-segue">Continuar <kbd>Enter</kbd></button></div></div>
+</div>
+<aside class="fx-ficha" id="fx-ficha" aria-label="Ficha da empresa">
+<button class="alca" type="button" id="alca" aria-expanded="false" aria-controls="ficha"><span class="anel" id="anel-a"></span><b>Ficha da empresa</b><small id="alca-txt">Comece pelas perguntas</small><svg class="sv" aria-hidden="true"><use href="#i-cima"/></svg></button>
+<div class="rot-f"><span>Ficha da empresa · ao vivo</span><button type="button" id="imprime2">Salvar em PDF</button></div>
+<div class="ficha" id="ficha"></div>
+</aside>
+</div>
+</div>
+
+
+<script>
+(function () {
+  'use strict';
+  var d = document;
+  var WA = '555135970440';
+  var MEI_ANO = 81000; /* limite anual do MEI em outubro de 2026 (LC 123/2006, art. 18-A) */
+  var MEI_MES = MEI_ANO / 12;
+  var CNAE_URL = 'cnae.json';
+  var reduz = window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches;
+  function $(s, r) { return (r || d).querySelector(s); }
+  function $$(s, r) { return [].slice.call((r || d).querySelectorAll(s)); }
+  function sa(s) { return String(s || '').normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase(); }
+  function esc(s) { return String(s == null ? '' : s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
+  function brl(n) { return n.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL', minimumFractionDigits: 0, maximumFractionDigits: 0 }); }
+  function pct(n) { return (n * 100).toLocaleString('pt-BR', { minimumFractionDigits: 2, maximumFractionDigits: 2 }) + '%'; }
+  $$('[data-mei]').forEach(function (el) { el.textContent = 'R$ ' + (MEI_ANO / 1000) + ' mil'; });
+
+  /* cabeçalho, menu, entradas */
+  var topo = $('.topo');
+  function rola() { topo.classList.toggle('rolou', scrollY > 8); }
+  addEventListener('scroll', rola, { passive: true }); rola();
+  var abre = $('.abre'), menu = d.getElementById('menu');
+  abre.addEventListener('click', function () { var on = abre.getAttribute('aria-expanded') !== 'true'; abre.setAttribute('aria-expanded', String(on)); menu.classList.toggle('aberto', on); });
+  $$('a', menu).forEach(function (a) { a.addEventListener('click', function () { abre.setAttribute('aria-expanded', 'false'); menu.classList.remove('aberto'); }); });
+  if ('IntersectionObserver' in window && !reduz) {
+    var io = new IntersectionObserver(function (es) { es.forEach(function (e) { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } }); }, { threshold: .15 });
+    $$('.rv,#cena').forEach(function (el) { io.observe(el); });
+  } else $$('.rv,#cena').forEach(function (el) { el.classList.add('in'); });
+
+  /* ===== Simples Nacional: LC 123/2006, Anexos I a V [teto da faixa, alíquota, parcela a deduzir] ===== */
+  var ANEXOS = {
+    I: [[180000, .04, 0], [360000, .073, 5940], [720000, .095, 13860], [1800000, .107, 22500], [3600000, .143, 87300], [4800000, .19, 378000]],
+    II: [[180000, .045, 0], [360000, .078, 5940], [720000, .10, 13860], [1800000, .112, 22500], [3600000, .147, 85500], [4800000, .30, 720000]],
+    III: [[180000, .06, 0], [360000, .112, 9360], [720000, .135, 17640], [1800000, .16, 35640], [3600000, .21, 125640], [4800000, .33, 648000]],
+    IV: [[180000, .045, 0], [360000, .09, 8100], [720000, .102, 12420], [1800000, .14, 39780], [3600000, .22, 183780], [4800000, .33, 828000]],
+    V: [[180000, .155, 0], [360000, .18, 4500], [720000, .195, 9900], [1800000, .205, 17100], [3600000, .23, 62100], [4800000, .305, 540000]]
+  };
+  function efetiva(anexo, rbt12) { var f = ANEXOS[anexo].filter(function (x) { return rbt12 <= x[0]; })[0]; return f ? (rbt12 * f[1] - f[2]) / rbt12 : null; }
+  function das(anexo, fatMes) { if (!(fatMes > 0)) return 0; var e = efetiva(anexo, fatMes * 12); return e == null ? null : fatMes * e; }
+  /* anexo provável pela atividade (CNAE): indício, a Apport confirma */
+  function anexoDe(cod, sec) {
+    var n = String(cod || '').replace(/\D/g, ''); if (n.length < 4) return null;
+    var dv = +n.slice(0, 2), q4 = n.slice(0, 4);
+    if (sec === 'G' || dv === 56) return 'I';
+    if (sec === 'C' || (dv >= 10 && dv <= 33)) return 'II';
+    if (sec === 'F' || (dv >= 41 && dv <= 43) || dv === 80 || q4 === '8121' || q4 === '8122' || q4 === '8129' || q4 === '6911') return 'IV';
+    if (dv === 62 || dv === 71 || dv === 72 || dv === 75 || dv === 86 || q4 === '7020' || q4 === '7410' || q4 === '7490') return 'V';
+    return 'III';
+  }
+
+  /* calculadora da página */
+  var cFat = d.getElementById('c-fat'), cFolha = d.getElementById('c-folha');
+  function calcula() {
+    var tipo = ($('input[name=c-tipo]:checked') || {}).value || 'servicos';
+    var fat = +cFat.value, folha = +cFolha.value;
+    d.getElementById('c-fat-v').textContent = brl(fat); d.getElementById('c-folha-v').textContent = brl(folha);
+    d.getElementById('c-folha-g').hidden = tipo !== 'intelectual';
+    var anexo = { servicos: 'III', comercio: 'I', industria: 'II', construcao: 'IV' }[tipo];
+    if (tipo === 'intelectual') anexo = folha / fat >= .28 ? 'III' : 'V';
+    var ef = efetiva(anexo, fat * 12), dica = d.getElementById('c-dica');
+    if (ef == null) { d.getElementById('c-total').textContent = 'Fora do Simples'; dica.hidden = false; dica.textContent = 'Acima de R$ 4,8 milhões por ano a empresa sai do Simples. A Apport compara Lucro Presumido e Lucro Real.'; return; }
+    var mes = fat * ef;
+    d.getElementById('c-total').innerHTML = brl(mes) + '<span>/mês</span>';
+    d.getElementById('c-anexo').textContent = anexo; d.getElementById('c-ef').textContent = pct(ef); d.getElementById('c-ano').textContent = brl(mes * 12);
+    dica.hidden = true;
+    if (tipo === 'intelectual') {
+      var mV = das('V', fat), mIII = das('III', fat), alvo = Math.ceil(fat * .28 / 50) * 50;
+      if (anexo === 'V' && mV - mIII > 1) { dica.hidden = false; dica.innerHTML = 'Com a folha (pró-labore incluído) em <b>' + brl(alvo) + '</b> por mês, 28% do faturamento, a empresa vai para o Anexo III e o DAS cai para <b>' + brl(mIII) + '</b>: <b>' + brl(mV - mIII) + ' a menos por mês</b>. Conte o INSS de 11% sobre o pró-labore: a Apport calcula se compensa.'; }
+      else if (anexo === 'III') { dica.hidden = false; dica.innerHTML = 'Fator R em ' + pct(folha / fat) + ': acima de 28%, a empresa fica no Anexo III. No Anexo V, o DAS seria ' + brl(mV) + '.'; }
+    }
+  }
+  [cFat, cFolha].forEach(function (el) { el.addEventListener('input', calcula); });
+  $$('input[name=c-tipo]').forEach(function (el) { el.addEventListener('change', calcula); });
+  calcula();
+
+  /* ===== CNAE do IBGE ===== */
+  var LISTA = null, carregando = null;
+  var PARE = ' de da do das dos e em para com por a o as os um uma na no nas nos meu minha sua seu empresa empresas servico servicos atividade ';
+  var APOIO = { venda: 'varejista', vendas: 'varejista', vender: 'varejista', loja: 'varejista', revenda: 'varejista', conserto: 'reparacao manutencao', consertos: 'reparacao manutencao', consertar: 'reparacao manutencao', arrumar: 'reparacao manutencao', fabrica: 'fabricacao', fabricar: 'fabricacao', fazer: 'fabricacao', aluguel: 'locacao aluguel', alugar: 'locacao aluguel', online: 'internet', internet: 'internet' };
+  /* buscas comuns de pequeno negócio; códigos conferidos na tabela do IBGE em 27/10/2026 */
+  var ATALHOS = [['salao', '9602-5/01'], ['salao beleza', '9602-5/01 9602-5/02'], ['cabel', '9602-5/01'], ['barbear', '9602-5/01'], ['barbeir', '9602-5/01'], ['manicur', '9602-5/01'], ['pedicur', '9602-5/01'], ['unha', '9602-5/01 9602-5/02'], ['estetic', '9602-5/02'], ['sobrancelh', '9602-5/02'], ['depila', '9602-5/02'], ['maquia', '9602-5/02'], ['cilio', '9602-5/02'], ['roupa', '4781-4/00'], ['vestuario', '4781-4/00'], ['=moda', '4781-4/00'], ['boutique', '4781-4/00'], ['calcado', '4782-2/01'], ['sapat', '4782-2/01'], ['celular consert', '9512-6/00'], ['celular repar', '9512-6/00'], ['celular manut', '9512-6/00'], ['celular', '4752-1/00 9512-6/00'], ['computador consert', '9511-8/00'], ['computador manut', '9511-8/00'], ['informatic', '4751-2/01 9511-8/00'], ['marmit', '5620-1/04'], ['quentinh', '5620-1/04'], ['comida casei', '5620-1/04'], ['personal', '9313-1/00'], ['academi', '9313-1/00'], ['frete', '4930-2/01 4930-2/02'], ['carga', '4930-2/01 4930-2/02'], ['mudanc', '4930-2/04'], ['motoboy', '5320-2/02'], ['entregador', '5320-2/02'], ['entrega rapid', '5320-2/02'], ['software', '6201-5/01 6202-3/00'], ['aplicativ', '6201-5/01'], ['=app', '6201-5/01'], ['=site', '6201-5/01'], ['=sites', '6201-5/01'], ['programad', '6201-5/01'], ['marketing', '7319-0/99 7311-4/00'], ['publicidad', '7311-4/00'], ['propaganda', '7311-4/00'], ['trafego', '7319-0/99'], ['social media', '7319-0/99'], ['consultori', '7020-4/00'], ['=pet', '9609-2/08 4789-0/04'], ['petshop', '9609-2/08 4789-0/04'], ['tosa', '9609-2/08'], ['racao', '4789-0/04'], ['mercadinho', '4712-1/00'], ['minimercado', '4712-1/00'], ['mercearia', '4712-1/00'], ['=mercado', '4712-1/00'], ['lanch', '5611-2/03'], ['hamburg', '5611-2/03'], ['pastel', '5611-2/03'], ['cachorro quente', '5611-2/03'], ['restaurant', '5611-2/01'], ['=bar', '5611-2/04'], ['food truck', '5612-1/00'], ['ambulant', '5612-1/00'], ['pedreir', '4399-1/03'], ['alvenari', '4399-1/03'], ['pintor', '4330-4/04'], ['eletricist', '4321-5/00'], ['encanad', '4322-3/01'], ['fotograf', '7420-0/01'], ['filmag', '5911-1/99'], ['=video', '5911-1/99'], ['design', '7410-2/99'], ['psicolog', '8650-0/03'], ['nutricion', '8650-0/02'], ['fisioterap', '8650-0/04'], ['=medico', '8630-5/03'], ['clinica medic', '8630-5/03'], ['advoga', '6911-7/01'], ['advocac', '6911-7/01'], ['arquitet', '7111-1/00'], ['engenheir', '7112-0/00'], ['corretor imov', '6821-8/01'], ['imobiliari', '6821-8/01'], ['corretor segur', '6622-3/00'], ['=aula', '8599-6/99'], ['professor', '8599-6/99'], ['=curso', '8599-6/99'], ['idioma', '8593-7/00'], ['ingles', '8593-7/00'], ['faxin', '8121-4/00'], ['diarist', '8121-4/00'], ['limpeza', '8121-4/00'], ['jardin', '8130-3/00'], ['mecanic', '4520-0/01'], ['oficina', '4520-0/01'], ['lava jato', '4520-0/05'], ['lavag carro', '4520-0/05'], ['lavanderi', '9601-7/01'], ['costur', '1412-6/02 1412-6/01'], ['cosmetic', '4772-5/00'], ['perfum', '4772-5/00'], ['otica', '4774-1/00'], ['oculos', '4774-1/00'], ['farmac', '4771-7/01'], ['material constru', '4744-0/99'], ['bebida', '4723-7/00'], ['adega', '4723-7/00'], ['padari', '4721-1/02 1091-1/02'], ['confeitar', '1091-1/02 4721-1/02'], ['=doce', '1091-1/02'], ['=bolo', '1091-1/02'], ['brigadeir', '1091-1/02'], ['evento', '8230-0/01'], ['=festa', '8230-0/01'], ['artesana', '4789-0/01'], ['veterinar', '7500-1/00'], ['brinquedo', '4763-6/01'], ['motorista aplicativ', '4923-0/02'], ['=uber', '4923-0/02'], ['seguranc', '8011-1/01'], ['vigilan', '8011-1/01']].map(function (a) { return { r: a[0].split(' '), c: a[1].split(' ') }; });
+  function prepara(j) { return j.itens.map(function (i) { return { cod: i[0], desc: i[1], sec: i[2], dn: ' ' + sa(i[1]).replace(/[^a-z0-9]+/g, ' ') + ' ', kw: ' ' + i[3] + ' ' }; }); }
+  function carrega() {
+    if (LISTA) return Promise.resolve(LISTA);
+    if (window.CNAE_EMBUTIDO) { LISTA = prepara(window.CNAE_EMBUTIDO); return Promise.resolve(LISTA); }
+    if (!carregando) carregando = fetch(CNAE_URL).then(function (r) { if (!r.ok) throw new Error('http ' + r.status); return r.json(); }).then(function (j) { LISTA = prepara(j); return LISTA; }).catch(function (e) { carregando = null; throw e; });
+    return carregando;
+  }
+  function variantes(w) { var v = [w]; if (w.length > 4) { if (/(oes|aes)$/.test(w)) v.push(w.slice(0, -3) + 'ao'); else if (/ns$/.test(w)) v.push(w.slice(0, -2) + 'm'); else if (/[rzl]es$/.test(w)) v.push(w.slice(0, -2)); else if (/s$/.test(w)) v.push(w.slice(0, -1)); } return v; }
+  function tem(txt, w) { return variantes(w).some(function (x) { return txt.indexOf(' ' + x) >= 0; }); }
+  function busca(q, max) {
+    var todas = sa(q).replace(/[^a-z0-9]+/g, ' ').trim().split(' ').filter(function (w) { return w.length >= 2 && PARE.indexOf(' ' + w + ' ') < 0; });
+    var dig = q.replace(/\D/g, ''), obrig = todas.filter(function (w) { return !APOIO[w] && !/^\d+$/.test(w); });
+    var apoio = todas.filter(function (w) { return APOIO[w]; }).map(function (w) { return APOIO[w].split(' '); });
+    if (!obrig.length && !apoio.length && dig.length < 4) return [];
+    var qs = ' ' + todas.join(' '), semAtacado = !/atacad|distribu/.test(qs), semFabrica = !/fabric|produz|produc|industri|confec|faccao|costur/.test(qs), bonus = {};
+    ATALHOS.forEach(function (a) {
+      var cobre = [];
+      var ok = a.r.every(function (raiz) { var ex = raiz.charAt(0) === '=', r = ex ? raiz.slice(1) : raiz; var achou = todas.filter(function (w) { return variantes(w).some(function (x) { return ex ? x === r : x.indexOf(r) === 0; }); }); cobre = cobre.concat(achou); return achou.length > 0; });
+      if (ok) a.c.forEach(function (c) { var b = bonus[c] || (bonus[c] = { p: 0, w: [] }); b.p += a.r.length > 1 ? 40 : 30; b.w = b.w.concat(cobre); });
+    });
+    var precisa = obrig.length <= 2 ? obrig.length : obrig.length - 1, res = [];
+    LISTA.forEach(function (it) {
+      var sc = 0, achou = 0, faltou = [];
+      if (dig.length >= 4) { if (it.cod.replace(/\D/g, '').indexOf(dig) === 0) sc += 100; else if (!obrig.length) return; }
+      obrig.forEach(function (w) { if (tem(it.dn, w)) { sc += 10; achou++; } else if (tem(it.kw, w)) { sc += 4; achou++; } else faltou.push(w); });
+      var b = bonus[it.cod]; if (b) { sc += b.p; if (faltou.every(function (w) { return b.w.indexOf(w) >= 0; })) achou = obrig.length; }
+      if (sc < 100 && achou < precisa) return;
+      apoio.forEach(function (alts) { if (alts.some(function (a) { return tem(it.dn, a); })) sc += 6; else if (alts.some(function (a) { return tem(it.kw, a); })) sc += 2; });
+      if (semAtacado && it.dn.indexOf(' atacadista ') >= 0) sc -= 12;
+      if (semFabrica && /^ (fabricacao|confeccao|faccao) /.test(it.dn)) sc -= 6;
+      if (sc > 0) res.push({ it: it, sc: sc - it.desc.length / 500 });
+    });
+    res.sort(function (a, b) { return b.sc - a.sc; });
+    return res.slice(0, max || 7).map(function (r) { return r.it; });
+  }
+
+  /* ===== estado do pedido ===== */
+  var FLUXO = { abrir: ['atividade', 'pessoas', 'faturamento', 'formato', 'endereco', 'nome', 'voce', 'revisao'], trocar: ['cnpj', 'numeros', 'equipe', 'voce', 'revisao'] };
+  var VAZIO = { porta: '', ativ: [], socios: '', nsocios: '', func: '', fat: 15000, fatNaoSei: false, folha: 3000, fatTocado: false, formatoEscolhido: '', local: '', cep: '', num: '', rua: '', bairro: '', compl: '', cidade: '', uf: '', nome1: '', nome2: '', nome3: '', fantasia: '', cnpj: '', empresa: null, tfat: 30000, tfunc: '', motivo: [], pessoa: '', cpf: '', zap: '', email: '', passo: '' };
+  var E = JSON.parse(JSON.stringify(VAZIO)), atual = '', ultimoFoco = null;
+  var CHAVE = 'apport:online:v2';
+  try { var s = JSON.parse(localStorage.getItem(CHAVE) || 'null'); if (s) for (var k in VAZIO) if (s[k] !== undefined) E[k] = s[k]; } catch (e) {}
+  function salva() { try { localStorage.setItem(CHAVE, JSON.stringify(E)); } catch (e) {} }
+  function fluxo() { return FLUXO[E.porta] || []; }
+
+  /* formato e números */
+  function formato() {
+    if (E.porta !== 'abrir' || !E.socios) return null;
+    var sec = E.ativ[0] ? E.ativ[0].sec : '', secaoMei = !sec || 'CFGHINS'.indexOf(sec) >= 0;
+    var meiPossivel = E.socios === '1' && !E.fatNaoSei && E.fat <= MEI_MES && E.func !== '2' && secaoMei;
+    var auto = E.socios === '2' ? 'LTDA' : meiPossivel ? 'MEI' : 'SLU';
+    var cod = E.formatoEscolhido && (E.formatoEscolhido === 'SLU' && E.socios === '1' || E.formatoEscolhido === 'MEI' && meiPossivel) ? E.formatoEscolhido : auto;
+    var porte = cod === 'MEI' ? 'MEI' : (!E.fatNaoSei && E.fat * 12 > 360000 ? 'EPP' : 'ME');
+    var N = { MEI: 'Microempreendedor Individual (MEI)', SLU: 'Sociedade Limitada Unipessoal', LTDA: 'Sociedade Limitada' };
+    return { cod: cod, auto: auto, meiPossivel: meiPossivel, nome: N[cod], porte: porte };
+  }
+  function anexoPedido() {
+    if (E.porta === 'abrir') { var a = E.ativ[0]; return a ? anexoDe(a.cod, a.sec) : null; }
+    var m = E.empresa; return m && m.cnaeCod ? anexoDe(m.cnaeCod, m.sec) : null;
+  }
+  function numeros() {
+    var f = formato(), anexo = anexoPedido(), r = { imp: '', impNota: '', apport: '', apportNota: '', eco: '' };
+    if (E.porta === 'abrir') {
+      if (f && f.cod === 'MEI') { r.imp = 'Fixo'; r.impNota = 'DAS mensal do MEI'; r.apport = 'Grátis'; r.apportNota = 'registro no Portal do Empreendedor'; return r; }
+      r.apport = 'R$ 99,90'; r.apportNota = '+ a partir de R$ 399,90/mês';
+      if (!E.socios && !E.ativ.length) { r.imp = ''; return r; }
+      if (E.fatNaoSei) { r.imp = 'Na proposta'; r.impNota = 'quando souber o faturamento'; return r; }
+      if (!anexo) { r.imp = ''; return r; }
+      if (anexo === 'V') { var v5 = das('V', E.fat), v3 = das('III', E.fat); r.imp = brl(v5); r.impNota = (E.fatTocado ? '' : 'exemplo com ' + brl(E.fat) + ' · ') + 'Anexo V · ' + brl(v3) + ' com pró-labore de 28%'; }
+      else { var v = das(anexo, E.fat); r.imp = v == null ? 'Fora do Simples' : brl(v); r.impNota = (E.fatTocado ? 'faturando ' : 'exemplo com ') + brl(E.fat) + ' · Anexo ' + anexo; }
+      return r;
+    }
+    if (E.porta === 'trocar') {
+      r.apport = 'R$ 99,90'; r.apportNota = '+ a partir de R$ 399,90/mês';
+      if (E.empresa && E.empresa.mei) { r.imp = 'Fixo'; r.impNota = 'DAS mensal do MEI'; return r; }
+      if (E.empresa && E.empresa.fora) { r.imp = 'Na proposta'; r.impNota = 'fora do Simples: comparamos os regimes'; return r; }
+      if (!anexo || !E.empresa) return r;
+      var fat = E.tfat, fr = fat > 0 ? E.folha / fat : 0;
+      if (anexo === 'V') {
+        var hoje = fr >= .28 ? das('III', fat) : das('V', fat), melhor = das('III', fat);
+        r.imp = brl(hoje); r.impNota = fr >= .28 ? 'Anexo III pelo Fator R' : 'Anexo V (Fator R abaixo de 28%)';
+        if (fr < .28 && hoje - melhor > 1) r.eco = brl(hoje - melhor);
+      } else { var h = das(anexo, fat); r.imp = h == null ? 'Fora do Simples' : brl(h); r.impNota = 'Anexo ' + anexo + ' · estimativa'; }
+      return r;
+    }
+    return r;
+  }
+  function razaoSocial() {
+    var f = formato();
+    if (f && f.cod === 'MEI') return E.pessoa ? (E.pessoa.trim().toUpperCase() + ' ' + (E.cpf.replace(/\D/g, '') || '')).trim() : '';
+    return E.nome1.trim() ? E.nome1.trim().toUpperCase() + ' LTDA' : '';
+  }
+
+  /* ===== a ficha ao vivo ===== */
+  var antes = {};
+  function progresso() {
+    var f = fluxo(); if (!f.length) return 0;
+    if (atual === 'feito') return 100;
+    var feitos = f.filter(function (p) { return p !== 'revisao' && !valida(p, true); }).length;
+    return Math.round(feitos / (f.length - 1) * 100);
+  }
+  function anelHTML(p) { var c = 119.4; return '<svg viewBox="0 0 46 46"><circle class="t" cx="23" cy="23" r="19"/><circle class="p" cx="23" cy="23" r="19" stroke-dasharray="' + c + '" stroke-dashoffset="' + (c * (1 - p / 100)).toFixed(1) + '"/></svg><b>' + p + '%</b>'; }
+  function vaz(w) { return '<span class="vaz" style="width:' + (w || 60) + '%"></span>'; }
+  function linhaF(id, rot, val, nota) { return '<div class="f-l" data-f="' + id + '"><dt>' + rot + '</dt><dd>' + (val ? esc(val) + (nota ? '<small>' + esc(nota) + '</small>' : '') : vaz()) + '</dd></div>'; }
+  function desenhaFicha() {
+    var el = d.getElementById('ficha'), p = progresso(), n = numeros(), L = [], razao = '', sub = '', carimbo = atual === 'feito' ? '<span class="carimbo final">' + esc(d.getElementById('protocolo').textContent) + '</span>' : '<span class="carimbo">Rascunho</span>';
+    if (E.porta === 'trocar') {
+      var m = E.empresa || {};
+      razao = m.razao || ''; sub = m.fantasia ? 'Nome fantasia: ' + m.fantasia : (E.cnpj ? 'CNPJ ' + E.cnpj : '');
+      L.push(linhaF('cnpj', 'CNPJ', E.cnpj && m.razao ? E.cnpj : ''));
+      L.push(linhaF('ativ', 'Atividade', m.cnae || ''));
+      L.push(linhaF('sede', 'Sede', m.cidade || ''));
+      L.push(linhaF('desde', 'Aberta em', m.abertura || ''));
+      L.push(linhaF('socios', 'Sócios', m.socios || ''));
+      L.push(linhaF('regime', 'Regime hoje', m.regime ? m.regime + (anexoPedido() && !m.mei && !m.fora ? ' · Anexo ' + (anexoPedido() === 'V' ? 'V ou III' : anexoPedido()) + ' (provável)' : '') : ''));
+      L.push(linhaF('equipe', 'Funcionários', { '0': 'Nenhum', '1': 'De 1 a 3', '2': '4 ou mais' }[E.tfunc] || ''));
+    } else {
+      var f = formato(), a = E.ativ[0];
+      razao = razaoSocial(); sub = f && f.cod === 'MEI' ? 'É assim que a Receita registra o MEI' : (E.fantasia ? 'Nome fantasia: ' + E.fantasia : '');
+      L.push(linhaF('ativ', 'Atividade', a ? (a.cod ? a.cod + ' · ' : '') + a.desc : '', E.ativ.length > 1 ? '+ ' + (E.ativ.length - 1) + ' atividade' + (E.ativ.length > 2 ? 's' : '') : ''));
+      L.push(linhaF('formato', 'Formato', f ? f.nome + (f.cod !== 'MEI' ? ' · ' + f.porte : '') : ''));
+      L.push(linhaF('socios', 'Sócios', E.socios === '1' ? (E.pessoa ? E.pessoa.trim() : 'Você') + ', 100%' : E.socios === '2' ? 'Você e mais ' + ((+E.nsocios || 2) - 1) : ''));
+      L.push(linhaF('equipe', 'Funcionários', { '0': 'Nenhum no começo', '1': 'Um', '2': 'Dois ou mais' }[E.func] || ''));
+      L.push(linhaF('sede', 'Sede', E.local === 'nao' ? 'A definir com a Apport' : E.cidade ? [E.rua + (E.num ? ', ' + E.num : ''), E.cidade + '/' + E.uf].filter(Boolean).join(' · ') : ''));
+      var an = anexoPedido();
+      L.push(linhaF('regime', 'Regime', f && f.cod === 'MEI' ? 'SIMEI · valor fixo por mês' : an ? 'Simples Nacional · Anexo ' + (an === 'V' ? 'V ou III' : an) + ' (provável)' : ''));
+    }
+    var num = '<div class="f-num"><div><small>Imposto estimado</small>' + (n.imp ? '<b>' + esc(n.imp) + (/^R\$/.test(n.imp) ? '<span>/mês</span>' : '') + '</b><p>' + esc(n.impNota) + '</p>' : vaz(70)) + '</div><div><small>Na Apport</small>' + (n.apport ? '<b>' + esc(n.apport) + '</b><p>' + esc(n.apportNota) + '</p>' : vaz(70)) + '</div>' + (n.eco ? '<div class="eco"><small>Economia possível</small><b>' + esc(n.eco) + '<span>/mês</span></b><p>levando a folha a 28% do faturamento (Fator R). Conte o INSS do pró-labore.</p></div>' : '') + '</div>';
+    el.innerHTML = '<div class="f-top"><svg class="wm" aria-hidden="true"><use href="#logo-online"/></svg><span class="f-tit">Ficha da empresa</span><span class="anel">' + anelHTML(p) + '</span></div>' + carimbo +
+      '<p class="f-rot">Razão social</p><p class="f-razao">' + (razao ? esc(razao) : vaz(72)) + '</p><p class="f-sub">' + esc(sub) + '</p><dl class="f-linhas">' + L.join('') + '</dl>' + num +
+      '<p class="f-pe">Estimativas com as tabelas do Simples Nacional de 2026. A Apport confere tudo na proposta.</p>';
+    /* destaca o que mudou */
+    $$('.f-l', el).forEach(function (row) { var id = row.getAttribute('data-f'), txt = row.textContent; if (antes[id] !== undefined && antes[id] !== txt && !/^\s*$/.test(txt)) row.classList.add('novo'); antes[id] = txt; });
+    d.getElementById('anel-a').innerHTML = anelHTML(p);
+    d.getElementById('alca-txt').textContent = n.apport ? (p + '% pronta · ' + n.apport + (n.apport === 'Grátis' ? '' : ' + R$ 399,90/mês')) : 'Comece pelas perguntas';
+  }
+  var fichaBox = d.getElementById('fx-ficha'), alca = d.getElementById('alca');
+  alca.addEventListener('click', function () { var on = !fichaBox.classList.contains('aberta'); fichaBox.classList.toggle('aberta', on); alca.setAttribute('aria-expanded', String(on)); });
+  [d.getElementById('imprime'), d.getElementById('imprime2')].forEach(function (b) { b.addEventListener('click', function () { print(); }); });
+
+  /* ===== abrir e fechar o pedido ===== */
+  var fx = d.getElementById('fx'), form = d.getElementById('fx-form'), erro = d.getElementById('erro');
+  var t0 = 0;
+  function inicia(porta, onde) {
+    ultimoFoco = d.activeElement; if (!t0) t0 = Date.now();
+    fx.hidden = false; d.documentElement.classList.add('travado');
+    if (porta && porta !== E.porta) { E.porta = porta; E.passo = ''; }
+    if (!E.porta) { vai('porta'); return; }
+    vai(onde || E.passo || fluxo()[0]);
+  }
+  function fecha() {
+    if (atual === 'feito') { E = JSON.parse(JSON.stringify(VAZIO)); antes = {}; form.reset(); preenche(); atual = ''; }
+    fx.hidden = true; d.documentElement.classList.remove('travado'); fichaBox.classList.remove('aberta');
+    if (/^#(comecar|abrir|trocar)$/.test(location.hash)) history.replaceState(null, '', location.pathname + location.search);
+    mostraRetomar();
+    if (ultimoFoco && ultimoFoco.focus) ultimoFoco.focus();
+  }
+  $$('[data-inicia]').forEach(function (b) { b.addEventListener('click', function () { inicia(b.getAttribute('data-inicia')); }); });
+  d.getElementById('fx-fecha').addEventListener('click', fecha);
+  $$('[data-porta]').forEach(function (b) { b.addEventListener('click', function () { E.porta = b.getAttribute('data-porta'); E.passo = ''; salva(); vai(fluxo()[0]); }); });
+
+  function vai(nome) {
+    var f = fluxo(), ia = f.indexOf(atual), ib = f.indexOf(nome), volta = ib >= 0 && ia > ib;
+    atual = nome; if (f.indexOf(nome) >= 0) E.passo = nome;
+    $$('.q', form).forEach(function (q) { var on = q.getAttribute('data-q') === nome; q.hidden = !on; q.classList.remove('entra', 'volta'); if (on && !reduz) { void q.offsetWidth; q.classList.add(volta ? 'volta' : 'entra'); } });
+    var i = f.indexOf(nome), tot = f.length;
+    d.getElementById('fx-modo').textContent = E.porta === 'trocar' ? 'Trocar de contador' : E.porta === 'abrir' ? 'Abrir empresa' : 'Apport One Já';
+    d.getElementById('fx-conta').textContent = nome === 'feito' ? 'Ficha enviada' : nome === 'porta' ? 'Para começar' : 'Pergunta ' + (i + 1) + ' de ' + tot;
+    d.getElementById('fx-barra').style.width = (nome === 'feito' ? 100 : nome === 'porta' ? 3 : ((i + 1) / tot) * 100) + '%';
+    $$('[data-n]', form).forEach(function (n) { n.textContent = i >= 0 ? (i + 1) + ' de ' + tot : ''; });
+    d.getElementById('fx-nav').hidden = nome === 'porta' || nome === 'feito';
+    d.getElementById('fx-volta').style.visibility = i > 0 ? 'visible' : 'hidden';
+    d.getElementById('fx-segue').innerHTML = (nome === 'revisao' ? 'Enviar pelo WhatsApp' : 'Continuar') + ' <kbd>Enter</kbd>';
+    d.getElementById('l-cpf').hidden = E.porta === 'trocar';
+    d.getElementById('socios-dica').hidden = !(E.porta === 'abrir' && E.socios === '2');
+    if (nome === 'formato') desenhaFormato();
+    if (nome === 'revisao') desenhaAceita();
+    if (nome === 'cnpj') desenhaEmpresa();
+    if (nome === 'numeros') desenhaRaiox();
+    if (nome === 'nome') { var mei = (formato() || {}).cod === 'MEI'; d.getElementById('nomes-ltda').hidden = mei; d.getElementById('nome-ajuda').textContent = mei ? 'No MEI, a razão social é o seu nome com o CPF. Escolha só o nome fantasia, que é o que os clientes vão ver.' : 'A Junta Comercial só aceita nome que ainda não existe. Mande três opções, em ordem de preferência.'; }
+    erro.textContent = ''; desenhaFicha(); salva();
+    d.getElementById('fx-perg').scrollTop = 0;
+    var alvo = nome === 'atividade' ? d.getElementById('q') : nome === 'cnpj' ? d.getElementById('cnpj') : $('h2', $('[data-q="' + nome + '"]'));
+    if (alvo) { if (alvo.tagName === 'H2') alvo.setAttribute('tabindex', '-1'); setTimeout(function () { try { alvo.focus({ preventScroll: true }); } catch (e) {} }, 60); }
+  }
+  d.getElementById('fx-volta').addEventListener('click', function () { var f = fluxo(), i = f.indexOf(atual); if (i > 0) vai(f[i - 1]); else vai('porta'); });
+  function segue() {
+    if (atual === 'porta' || atual === 'feito') return;
+    var m = valida(atual); if (m) { erro.textContent = m; return; }
+    var f = fluxo(), i = f.indexOf(atual);
+    if (atual === 'faturamento') E.fatTocado = true;
+    if (atual !== 'revisao') { vai(f[i + 1]); return; }
+    envia();
+  }
+  d.getElementById('fx-segue').addEventListener('click', segue);
+  form.addEventListener('submit', function (e) { e.preventDefault(); segue(); });
+
+  /* teclado: Enter segue, números escolhem, Esc fecha */
+  d.addEventListener('keydown', function (e) {
+    if (fx.hidden || !fx.contains(e.target) && e.key !== 'Escape') return;
+    if (e.key === 'Escape') { if (fichaBox.classList.contains('aberta')) { fichaBox.classList.remove('aberta'); alca.setAttribute('aria-expanded', 'false'); } else fecha(); return; }
+    var t = e.target, emTexto = t.tagName === 'INPUT' && /^(text|search|email|tel|number)$/.test(t.type) || t.tagName === 'TEXTAREA';
+    if (e.key === 'Enter' && !e.shiftKey) {
+      if (t.id === 'q') return; /* a busca trata o Enter */
+      if (t.tagName === 'BUTTON' || t.tagName === 'A') return;
+      e.preventDefault(); segue(); return;
+    }
+    if (!emTexto && /^[1-9]$/.test(e.key)) {
+      var sec = $('[data-q="' + atual + '"]'); if (!sec) return;
+      var alvos = $$('.opc, .mini label', sec).filter(function (x) { return x.offsetParent !== null; });
+      var k = +e.key - 1; if (alvos[k]) { e.preventDefault(); alvos[k].click(); }
+    }
+  });
+
+  /* ===== atividade ===== */
+  var q = d.getElementById('q'), resultados = d.getElementById('resultados'), escolhidas = d.getElementById('escolhidas'), tBusca;
+  function mostra() {
+    var txt = q.value.trim(); if (txt.length < 3) { resultados.innerHTML = ''; return; }
+    carrega().then(function () {
+      if (q.value.trim() !== txt) return;
+      var r = busca(txt).filter(function (it) { return !E.ativ.some(function (a) { return a.cod === it.cod; }); });
+      resultados.innerHTML = r.length ? r.map(function (it) { return '<li><button type="button" data-cod="' + it.cod + '"><span class="cod">' + it.cod + '</span><span class="ds">' + esc(it.desc) + '</span></button></li>'; }).join('')
+        : '<li class="aviso"><span>Não achamos "' + esc(txt) + '" na lista do IBGE. Tente outra palavra ou siga com o que você escreveu.</span><span><button type="button" data-livre>Usar "' + esc(txt) + '" e a Apport encontra o código</button></span></li>';
+    }).catch(function () { resultados.innerHTML = '<li class="aviso"><span>A lista do IBGE não carregou agora.</span><span><button type="button" data-livre>Seguir com "' + esc(txt) + '"</button></span></li>'; });
+  }
+  q.addEventListener('focus', function () { carrega().catch(function () {}); });
+  q.addEventListener('input', function () { clearTimeout(tBusca); tBusca = setTimeout(mostra, 130); });
+  q.addEventListener('keydown', function (e) {
+    if (e.key === 'ArrowDown') { var b = $('button', resultados); if (b) { e.preventDefault(); b.focus(); } }
+    if (e.key === 'Enter') { e.preventDefault(); var p = $('button[data-cod]', resultados); if (p) escolhe(p.getAttribute('data-cod')); else if (!q.value.trim() && E.ativ.length) segue(); }
+  });
+  resultados.addEventListener('keydown', function (e) { var bs = $$('button', resultados), i = bs.indexOf(d.activeElement); if (e.key === 'ArrowDown' && i < bs.length - 1) { e.preventDefault(); bs[i + 1].focus(); } if (e.key === 'ArrowUp') { e.preventDefault(); if (i > 0) bs[i - 1].focus(); else q.focus(); } });
+  resultados.addEventListener('click', function (e) { var b = e.target.closest('button'); if (!b) return; if (b.hasAttribute('data-livre')) adiciona({ cod: '', desc: q.value.trim(), sec: '' }); else escolhe(b.getAttribute('data-cod')); });
+  function escolhe(cod) { var it = LISTA && LISTA.filter(function (x) { return x.cod === cod; })[0]; if (it) adiciona({ cod: it.cod, desc: it.desc, sec: it.sec }); }
+  function adiciona(a) { if (!a.desc) return; if (E.ativ.length >= 6) { erro.textContent = 'Até seis atividades por aqui.'; return; } E.ativ.push(a); q.value = ''; resultados.innerHTML = ''; erro.textContent = ''; desenhaAtiv(); desenhaFicha(); salva(); q.focus(); }
+  function desenhaAtiv() {
+    escolhidas.innerHTML = E.ativ.map(function (a, i) { return '<div class="escolhida' + (i === 0 ? ' principal' : '') + '"><span class="tag">' + (i === 0 ? 'Atividade principal' : 'Outra atividade') + ' · ' + (a.cod || 'código a definir') + '</span><b>' + esc(a.desc) + '</b><button type="button" data-tira="' + i + '">Tirar</button></div>'; }).join('');
+    q.placeholder = E.ativ.length ? 'Outra atividade? (opcional) ou Enter para seguir' : 'salão de beleza, loja de roupas...';
+  }
+  escolhidas.addEventListener('click', function (e) { var b = e.target.closest('[data-tira]'); if (!b) return; E.ativ.splice(+b.getAttribute('data-tira'), 1); desenhaAtiv(); desenhaFicha(); salva(); q.focus(); });
+
+  /* ===== formato ===== */
+  function desenhaFormato() {
+    var f = formato(), el = d.getElementById('indicado'), tf = d.getElementById('troca-form'); if (!f) { el.innerHTML = ''; tf.innerHTML = ''; return; }
+    var ok = '<svg aria-hidden="true"><use href="#i-ok"/></svg>', porque;
+    if (f.cod === 'MEI') porque = ['Você trabalha sozinho', 'Fatura até ' + brl(MEI_ANO) + ' por ano', 'Terá no máximo um funcionário', 'Imposto em valor fixo por mês'];
+    else if (f.cod === 'SLU') porque = ['Um dono só', 'Patrimônio pessoal separado do da empresa', 'Sem capital mínimo', f.meiPossivel ? 'Cresce sem trocar de formato' : 'Pode faturar acima do limite do MEI'];
+    else porque = ['Dois ou mais sócios', 'A parte de cada um fica no contrato social', 'Patrimônio pessoal separado do da empresa', 'Simples Nacional até ' + 'R$ 4,8 milhões por ano'];
+    el.innerHTML = '<div class="indicado"><small>' + (f.cod === f.auto ? 'Indicado para você' : 'Escolhido por você') + '</small><b>' + f.nome + '</b><ul>' + porque.map(function (x) { return '<li>' + ok + '<span>' + x + '</span></li>'; }).join('') + '</ul>' + (f.cod === 'MEI' ? '<p>Falta conferir se a sua atividade está na lista do MEI. Isso nós fazemos.</p>' : '') + '</div>';
+    var alt = [];
+    if (f.meiPossivel && f.cod === 'MEI') alt.push(['SLU', 'Prefiro começar como Sociedade Limitada Unipessoal']);
+    if (f.meiPossivel && f.cod === 'SLU') alt.push(['MEI', 'Prefiro o MEI']);
+    tf.innerHTML = alt.map(function (a) { return '<button type="button" class="lk" data-formato="' + a[0] + '">' + a[1] + '</button>'; }).join('') + (f.cod !== f.auto ? '<button type="button" class="lk" data-formato="">Voltar ao indicado</button>' : '');
+  }
+  d.getElementById('troca-form').addEventListener('click', function (e) { var b = e.target.closest('[data-formato]'); if (!b) return; E.formatoEscolhido = b.getAttribute('data-formato'); salva(); desenhaFormato(); desenhaFicha(); });
+
+  /* ===== endereço, CPF, telefone ===== */
+  var LOCAL_DICA = { casa: 'A prefeitura confirma se a atividade pode funcionar em endereço residencial. Essa consulta nós fazemos.', sala: 'Se tiver, deixe à mão o IPTU ou a inscrição do imóvel. A consulta na prefeitura nós fazemos.', nao: 'Sem problema. Na proposta, indicamos as opções para a sua atividade.' };
+  function cepFmt(v) { v = v.replace(/\D/g, '').slice(0, 8); return v.length > 5 ? v.slice(0, 5) + '-' + v.slice(5) : v; }
+  var ultimoCep = '';
+  function buscaCep(cep) {
+    var msg = d.getElementById('cep-msg'); if (cep === ultimoCep) return; ultimoCep = cep; msg.textContent = 'Buscando o endereço...';
+    fetch('https://viacep.com.br/ws/' + cep + '/json/').then(function (r) { return r.json(); }).then(function (j) { if (j.erro) throw 0; return { rua: j.logradouro, bairro: j.bairro, cidade: j.localidade, uf: j.uf }; })
+      .catch(function () { return fetch('https://brasilapi.com.br/api/cep/v1/' + cep).then(function (r) { if (!r.ok) throw 0; return r.json(); }).then(function (j) { return { rua: j.street, bairro: j.neighborhood, cidade: j.city, uf: j.state }; }); })
+      .then(function (a) { ['rua', 'bairro', 'cidade', 'uf'].forEach(function (c) { if (a[c]) { E[c] = a[c]; form.elements[c].value = a[c]; } }); msg.textContent = (a.cidade ? a.cidade + '/' + a.uf : 'Endereço encontrado') + '. Confira e informe o número.'; salva(); desenhaFicha(); if (!E.num) form.elements.num.focus(); })
+      .catch(function () { msg.textContent = 'Não achamos esse CEP. Preencha o endereço à mão.'; });
+  }
+  function cpfFmt(v) { v = v.replace(/\D/g, '').slice(0, 11); return v.replace(/(\d{3})(\d)/, '$1.$2').replace(/(\d{3})(\d)/, '$1.$2').replace(/(\d{3})(\d{1,2})$/, '$1-$2'); }
+  function zapFmt(v) { v = v.replace(/\D/g, '').slice(0, 11); if (v.length <= 2) return v.length ? '(' + v : ''; if (v.length <= 6) return '(' + v.slice(0, 2) + ') ' + v.slice(2); if (v.length <= 10) return '(' + v.slice(0, 2) + ') ' + v.slice(2, 6) + '-' + v.slice(6); return '(' + v.slice(0, 2) + ') ' + v.slice(2, 7) + '-' + v.slice(7); }
+  function cpfOk(c) { c = c.replace(/\D/g, ''); if (c.length !== 11 || /^(\d)\1{10}$/.test(c)) return false; for (var t = 9; t < 11; t++) { var s = 0; for (var i = 0; i < t; i++) s += +c[i] * (t + 1 - i); if ((s * 10) % 11 % 10 !== +c[t]) return false; } return true; }
+  function emailOk(e) { return /^[^@\s<>?&#%/"]+@[^@\s<>?&#%/"]+\.[^@\s<>?&#%/"]{2,}$/.test(e); }
+  /* nome: só letras, espaço e ' . - (mesma regra do Sistema Brasil); o apóstrofo do celular vira o simples */
+  function nomeLimpo(n) { return String(n || '').normalize('NFC').replace(/[‘’´`]/g, "'").replace(/\s+/g, ' ').trim(); }
+  function nomeOk(n) { var x = nomeLimpo(n); return x.length >= 3 && x.length <= 120 && /^[\p{L} '.-]+$/u.test(x) && /\p{L}/u.test(x); }
+
+  /* ===== CNPJ na Receita (BrasilAPI) ===== */
+  function cnpjFmt(v) { v = v.replace(/\D/g, '').slice(0, 14); return v.replace(/^(\d{2})(\d)/, '$1.$2').replace(/^(\d{2})\.(\d{3})(\d)/, '$1.$2.$3').replace(/\.(\d{3})(\d)/, '.$1/$2').replace(/(\d{4})(\d)/, '$1-$2'); }
+  function dv(base) { var p = base.length - 7, s = 0; for (var i = 0; i < base.length; i++) { s += +base[i] * p--; if (p < 2) p = 9; } var r = s % 11; return r < 2 ? 0 : 11 - r; }
+  function cnpjOk(c) { c = String(c || '').replace(/\D/g, ''); if (c.length !== 14 || /^(\d)\1+$/.test(c)) return false; var d1 = dv(c.slice(0, 12)), d2 = dv(c.slice(0, 12) + d1); return d1 === +c[12] && d2 === +c[13]; }
+  var cacheCnpj = {};
+  function consultaCnpj(c) {
+    if (cacheCnpj[c]) return Promise.resolve(cacheCnpj[c]);
+    return fetch('https://brasilapi.com.br/api/cnpj/v1/' + c).then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); }).then(function (j) {
+      var cod = j.cnae_fiscal ? String(j.cnae_fiscal).padStart(7, '0').replace(/^(\d{4})(\d)(\d{2})$/, '$1-$2/$3') : '';
+      var it = LISTA && LISTA.filter(function (x) { return x.cod === cod; })[0];
+      var socios = (j.qsa || []).map(function (s) { return s.nome_socio; }).filter(Boolean);
+      var m = { razao: j.razao_social || '', fantasia: j.nome_fantasia || '', cnaeCod: cod, sec: it ? it.sec : '', cnae: (cod ? cod + ' · ' : '') + (j.cnae_fiscal_descricao || ''), cidade: (j.municipio || '') + (j.uf ? '/' + j.uf : ''), situacao: j.descricao_situacao_cadastral || '', mei: !!j.opcao_pelo_mei, fora: !j.opcao_pelo_simples && !j.opcao_pelo_mei, regime: j.opcao_pelo_mei ? 'MEI' : j.opcao_pelo_simples ? 'Simples Nacional' : 'Fora do Simples', abertura: j.data_inicio_atividade ? j.data_inicio_atividade.split('-').reverse().join('/') : '', socios: socios.length ? socios.slice(0, 3).join(', ') + (socios.length > 3 ? ' e mais ' + (socios.length - 3) : '') : '' };
+      cacheCnpj[c] = m; return m;
+    });
+  }
+  var ultimoCnpj = '';
+  function buscaCnpj(c) {
+    if (c === ultimoCnpj && E.empresa) return; ultimoCnpj = c;
+    var box = d.getElementById('empresa'); box.innerHTML = '<p class="fino">Consultando a Receita Federal...</p>';
+    carrega().catch(function () {}).then(function () { return consultaCnpj(c); }).then(function (m) { E.empresa = m; salva(); desenhaEmpresa(); desenhaFicha(); })
+      .catch(function () { E.empresa = { razao: '', manual: true }; salva(); box.innerHTML = '<p class="fino">Não conseguimos consultar a Receita agora. Pode seguir: a Apport confere o CNPJ na proposta.</p>'; desenhaFicha(); });
+  }
+  function desenhaEmpresa() {
+    var box = d.getElementById('empresa'), m = E.empresa;
+    if (!m || m.manual || !m.razao) { if (!m) box.innerHTML = ''; return; }
+    box.innerHTML = '<div class="empresa-card"><span class="t"><svg aria-hidden="true"><use href="#i-ok"/></svg>Achamos a sua empresa · ' + esc(m.situacao) + '</span><b>' + esc(m.razao) + '</b><p class="fino" style="margin:0">' + esc(m.cnae) + ' · ' + esc(m.cidade) + '</p></div>';
+  }
+  function desenhaRaiox() {
+    var el = d.getElementById('raiox'), m = E.empresa || {}, an = anexoPedido();
+    d.getElementById('tfat-v').textContent = brl(E.tfat); d.getElementById('folha-v').textContent = brl(E.folha);
+    d.getElementById('folha-box').hidden = an !== 'V';
+    if (m.mei) { el.innerHTML = '<div class="eco" style="grid-column:1/-1"><small>Sua empresa é MEI</small><b>Valor fixo</b><p>Se o faturamento passar de ' + brl(MEI_ANO) + ' por ano, a Apport faz a migração para ME sem susto.</p></div>'; return; }
+    if (m.fora) { el.innerHTML = '<div style="grid-column:1/-1"><small>Fora do Simples</small><b>Presumido ou Real</b><p>A Apport compara os regimes com os seus números na proposta.</p></div>'; return; }
+    if (!an) { el.innerHTML = '<div style="grid-column:1/-1"><small>Raio-x</small><b>Na proposta</b><p>Com o CNPJ confirmado, calculamos o seu imposto.</p></div>'; return; }
+    var n = numeros(), fr = E.tfat > 0 ? E.folha / E.tfat : 0;
+    var html = '<div><small>Você paga hoje (estimado)</small><b>' + esc(n.imp) + '<span>/mês</span></b><p>' + esc(n.impNota) + '</p></div>';
+    if (an === 'V') html += '<div><small>Fator R</small><b>' + pct(fr) + '</b><p>' + (fr >= .28 ? 'Acima de 28%: Anexo III' : 'Abaixo de 28%: Anexo V') + '</p></div>';
+    else html += '<div><small>Por ano</small><b>' + brl(das(an, E.tfat) * 12) + '</b><p>no Simples Nacional</p></div>';
+    if (n.eco) html += '<div class="eco"><small>Economia possível com planejamento</small><b>' + esc(n.eco) + '<span>/mês</span></b><p>com a folha em ' + brl(Math.ceil(E.tfat * .28 / 50) * 50) + ' (28% do faturamento). A Apport confere se compensa, contando o INSS do pró-labore.</p></div>';
+    el.innerHTML = html;
+  }
+
+  /* ===== campos ligados ao estado ===== */
+  form.addEventListener('input', function (e) { muda(e.target); });
+  form.addEventListener('change', function (e) { if (e.target.type === 'radio' || e.target.type === 'checkbox') muda(e.target); });
+  function muda(el) {
+    var n = el.name; if (!n || n === 'aceite') return;
+    if (n === 'fat' && el.id === 'tfat') n = 'tfat';
+    if (!(n in E)) return;
+    if (n === 'cep') { el.value = cepFmt(el.value); E.cep = el.value; if (el.value.length === 9) buscaCep(el.value.replace('-', '')); }
+    else if (n === 'cpf') { el.value = cpfFmt(el.value); E.cpf = el.value; }
+    else if (n === 'zap') { el.value = zapFmt(el.value); E.zap = el.value; }
+    else if (n === 'cnpj') { el.value = cnpjFmt(el.value); E.cnpj = el.value; var cl = el.value.replace(/\D/g, ''); if (cl.length === 14) { if (cnpjOk(cl)) buscaCnpj(cl); else { E.empresa = null; d.getElementById('empresa').innerHTML = '<p class="erro">Esse CNPJ não confere. Veja os números.</p>'; } } else { E.empresa = null; ultimoCnpj = ''; d.getElementById('empresa').innerHTML = ''; } }
+    else if (n === 'uf') { el.value = el.value.toUpperCase().replace(/[^A-Z]/g, ''); E.uf = el.value; }
+    else if (n === 'fat') { E.fat = +el.value; E.fatTocado = true; d.getElementById('fat-v').textContent = brl(E.fat); if (E.fatNaoSei) { E.fatNaoSei = false; form.elements.fatNaoSei.checked = false; } }
+    else if (n === 'tfat' || n === 'folha') { E[n] = +el.value; desenhaRaiox(); }
+    else if (n === 'fatNaoSei') { E.fatNaoSei = el.checked; }
+    else if (n === 'motivo') { E.motivo = $$('input[name=motivo]:checked', form).map(function (x) { return x.value; }); }
+    else if (el.type === 'radio') { if (el.checked) E[n] = el.value; }
+    else E[n] = el.value;
+    el.removeAttribute('aria-invalid');
+    if (n === 'socios') { d.getElementById('qtd-socios').hidden = E.socios !== '2'; if (E.socios === '2' && !E.nsocios) { E.nsocios = '2'; form.elements.nsocios.value = '2'; } E.formatoEscolhido = ''; }
+    if (n === 'local') { d.getElementById('end').hidden = E.local === 'nao'; d.getElementById('local-dica').textContent = LOCAL_DICA[E.local] || ''; }
+    if (/^(socios|fat|func|fatNaoSei)$/.test(n)) E.formatoEscolhido = E.formatoEscolhido && formato() && formato().cod === E.formatoEscolhido ? E.formatoEscolhido : '';
+    erro.textContent = ''; salva(); desenhaFicha();
+  }
+  function preenche() {
+    ['nsocios', 'cep', 'num', 'rua', 'bairro', 'compl', 'cidade', 'uf', 'nome1', 'nome2', 'nome3', 'fantasia', 'cnpj', 'pessoa', 'cpf', 'zap', 'email'].forEach(function (k) { if (form.elements[k]) form.elements[k].value = E[k] || ''; });
+    ['socios', 'func', 'local', 'tfunc'].forEach(function (k) { $$('input[name="' + k + '"]', form).forEach(function (r) { r.checked = r.value === E[k]; }); });
+    $$('input[name=motivo]', form).forEach(function (x) { x.checked = E.motivo.indexOf(x.value) >= 0; });
+    d.getElementById('fat').value = E.fat; d.getElementById('fat-v').textContent = brl(E.fat); form.elements.fatNaoSei.checked = !!E.fatNaoSei;
+    d.getElementById('tfat').value = E.tfat; d.getElementById('folha').value = E.folha;
+    d.getElementById('qtd-socios').hidden = E.socios !== '2';
+    d.getElementById('end').hidden = !E.local || E.local === 'nao';
+    d.getElementById('local-dica').textContent = LOCAL_DICA[E.local] || '';
+    desenhaAtiv(); desenhaEmpresa();
+  }
+
+  /* ===== validação (silenciosa serve para medir o progresso) ===== */
+  function marca(n, msg, mudo) { if (!mudo) { var el = form.elements[n]; if (el && el.setAttribute) { el.setAttribute('aria-invalid', 'true'); el.focus(); } } return msg; }
+  function valida(p, mudo) {
+    if (p === 'atividade' && !E.ativ.length) { if (!mudo) q.focus(); return 'Escolha pelo menos uma atividade da lista.'; }
+    if (p === 'pessoas') { if (!E.socios) return 'Diga se vai ter sócios.'; if (E.socios === '2' && !(+E.nsocios >= 2)) return marca('nsocios', 'Informe quantos sócios, contando você.', mudo); if (E.func === '') return 'Diga se vai ter funcionários no começo.'; }
+    if (p === 'faturamento' && !E.fatNaoSei && !(E.fat > 0)) return 'Mova a régua ou marque "Ainda não sei".';
+    if (p === 'formato' && !formato()) return 'Volte e responda quem vai estar com você.';
+    if (p === 'endereco') { if (!E.local) return 'Escolha onde a empresa vai funcionar.'; if (E.local !== 'nao') { if (E.cep.replace(/\D/g, '').length !== 8) return marca('cep', 'Confira o CEP.', mudo); if (!E.rua.trim()) return marca('rua', 'Informe a rua.', mudo); if (!E.num.trim()) return marca('num', 'Informe o número (ou "s/n").', mudo); if (!E.cidade.trim()) return marca('cidade', 'Informe a cidade.', mudo); if (!/^[A-Z]{2}$/.test(E.uf)) return marca('uf', 'Informe a UF com duas letras.', mudo); } }
+    if (p === 'nome' && (formato() || {}).cod !== 'MEI' && E.nome1.trim().length < 3) return marca('nome1', 'Escreva pelo menos uma opção de nome.', mudo);
+    if (p === 'cnpj' && !cnpjOk(E.cnpj)) return marca('cnpj', 'Confira o CNPJ.', mudo);
+    if (p === 'numeros' && !(E.tfat > 0)) return 'Informe o faturamento.';
+    if (p === 'equipe' && E.tfunc === '') return 'Diga quantos funcionários.';
+    if (p === 'voce') { if (E.pessoa.trim().split(/\s+/).length < 2) return marca('pessoa', 'Escreva o nome completo.', mudo); if (!nomeOk(E.pessoa)) return marca('pessoa', 'Use só letras no nome.', mudo); if (E.porta === 'abrir' && !cpfOk(E.cpf)) return marca('cpf', 'Confira o CPF.', mudo); if (E.zap.replace(/\D/g, '').length < 10) return marca('zap', 'Confira o WhatsApp com DDD.', mudo); if (!emailOk(E.email.trim())) return marca('email', 'Confira o e-mail.', mudo); }
+    if (p === 'revisao' && !form.elements.aceite.checked) { if (!mudo) form.elements.aceite.focus(); return 'Marque a caixa de concordância para enviar.'; }
+    return '';
+  }
+
+  /* ===== envio ===== */
+  var FAT_T = { '0': 'Nenhum', '1': 'De 1 a 3', '2': '4 ou mais' };
+  function linhasMsg() {
+    var L = [], n = numeros();
+    if (E.porta === 'abrir') {
+      var f = formato() || {};
+      L.push(['Atividade principal', E.ativ[0] ? (E.ativ[0].cod ? E.ativ[0].cod + ' · ' : '') + E.ativ[0].desc : '']);
+      if (E.ativ.length > 1) L.push(['Outras atividades', E.ativ.slice(1).map(function (a) { return (a.cod ? a.cod + ' · ' : '') + a.desc; }).join('; ')]);
+      L.push(['Formato', (f.nome || '') + (f.cod && f.cod !== f.auto ? ' (escolhido por mim)' : ' (indicado pelo site)')]);
+      L.push(['Sócios', E.socios === '1' ? 'Só eu' : (E.nsocios || 2) + ' sócios no total']);
+      L.push(['Funcionários', { '0': 'Nenhum no começo', '1': 'Um', '2': 'Dois ou mais' }[E.func]]);
+      L.push(['Faturamento previsto', E.fatNaoSei ? 'Ainda não sei' : brl(E.fat) + ' por mês']);
+      L.push(['Endereço', E.local === 'nao' ? 'Ainda não tenho' : [E.rua + ', ' + E.num, E.compl, E.bairro, E.cidade + '/' + E.uf, 'CEP ' + E.cep].filter(function (x) { return x && x.trim(); }).join(', ') + ' (' + (E.local === 'casa' ? 'minha casa' : 'sala, loja ou galpão') + ')']);
+      if (f.cod !== 'MEI') L.push(['Nomes', [E.nome1, E.nome2, E.nome3].filter(function (x) { return x && x.trim(); }).map(function (x, i) { return (i + 1) + ') ' + x.trim(); }).join('  ')]);
+      if (E.fantasia) L.push(['Nome fantasia', E.fantasia]);
+      if (n.imp) L.push(['Imposto estimado no site', n.imp + (/^R\$/.test(n.imp) ? '/mês' : '') + ' (' + n.impNota + ')']);
+      L.push(['Meus dados', [E.pessoa, 'CPF ' + E.cpf, E.zap, E.email].join(', ')]);
+    } else {
+      var m = E.empresa || {};
+      L.push(['Empresa', (m.razao ? m.razao + ' · ' : '') + 'CNPJ ' + E.cnpj]);
+      if (m.cnae) L.push(['Atividade', m.cnae]);
+      if (m.cidade) L.push(['Cidade', m.cidade]);
+      if (m.regime) L.push(['Regime hoje', m.regime]);
+      L.push(['Faturamento', brl(E.tfat) + ' por mês']);
+      if (anexoPedido() === 'V') L.push(['Folha com pró-labore', brl(E.folha) + ' por mês']);
+      L.push(['Funcionários', FAT_T[E.tfunc]]);
+      if (E.motivo.length) L.push(['Motivo da troca', E.motivo.join(', ')]);
+      if (n.imp) L.push(['Imposto estimado no site', /^R\$/.test(n.imp) ? n.imp + '/mês' + (n.eco ? ', economia possível de ' + n.eco + '/mês' : '') : n.imp + ' (' + n.impNota + ')']);
+      L.push(['Meus dados', [E.pessoa, E.zap, E.email].join(', ')]);
+    }
+    return L;
+  }
+  function protocolo() { var h = new Date(), p = function (n) { return String(n).padStart(2, '0'); }; var L = 'ABCDEFGHJKLMNPQRSTUVWXYZ23456789', s = ''; for (var i = 0; i < 4; i++) s += L.charAt(Math.floor(Math.random() * L.length)); return 'WA-' + String(h.getFullYear()).slice(2) + p(h.getMonth() + 1) + p(h.getDate()) + '-' + s; }
+  var API_ABERTURA = 'https://sistemabrasil.com/api/abertura/ficha';
+  function dadosParaServidor() {
+    var f = formato() || {}, n = numeros(), x = JSON.parse(JSON.stringify(E));
+    delete x.passo; delete x.cpf; delete x.pessoa; delete x.zap; delete x.email;
+    x.formato = f.cod ? { codigo: f.cod, nome: f.nome, porte: f.porte, escolhido: f.cod !== f.auto } : null;
+    x.anexo = anexoPedido(); x.estimativa = { imposto: n.imp, nota: n.impNota, economia: n.eco || null };
+    x.calculo = { formato: f.cod ? { cod: f.cod, auto: f.auto, nome: f.nome, porte: f.porte } : null, numeros: { imp: n.imp, impNota: n.impNota, eco: n.eco || null }, anexo: x.anexo };
+    /* o contato (com CPF) vai à parte; o resumo fica sem ele */
+    x.resumo = linhasMsg().filter(function (l) { return l[0] !== 'Meus dados'; });
+    return x;
+  }
+  /* o endereço da marca (apport.sistemabrasil.com) só vale depois do DNS; até lá, o mesmo link em sistemabrasil.com */
+  function linkQueAbre(link) {
+    var m = /^https:\/\/([a-z0-9.-]+)(\/abertura\/c\/[A-Za-z0-9_-]+)$/.exec(link || '');
+    if (!m || m[1] === 'sistemabrasil.com') return Promise.resolve(link);
+    var reserva = 'https://sistemabrasil.com' + m[2], ctl = window.AbortController ? new AbortController() : null;
+    var tm = setTimeout(function () { if (ctl) ctl.abort(); }, 2500);
+    return fetch('https://' + m[1] + '/favicon.ico', { mode: 'no-cors', cache: 'no-store', signal: ctl ? ctl.signal : undefined })
+      .then(function () { clearTimeout(tm); return link; }, function () { clearTimeout(tm); return reserva; });
+  }
+  function envia() {
+    var botao = d.getElementById('fx-segue'); botao.disabled = true; botao.textContent = 'Enviando...';
+    /* a janela do WhatsApp abre já no clique (senão o navegador bloqueia) e recebe o endereço depois */
+    var janela = null;
+    try {
+      janela = window.open('about:blank', '_blank');
+      if (janela) { janela.document.title = 'Abrindo o WhatsApp'; janela.document.body.innerHTML = '<p style="font:16px system-ui,sans-serif;padding:24px;color:#001E60">Abrindo o WhatsApp da Apport...</p>'; }
+    } catch (e) { janela = null; }
+    var ctl = window.AbortController ? new AbortController() : null, tm = setTimeout(function () { if (ctl) ctl.abort(); }, 7000);
+    var corpo = { escritorio: 'apport', tipo: E.porta, dados: dadosParaServidor(), contato: { nome: nomeLimpo(E.pessoa), email: E.email.trim(), whatsapp: '55' + E.zap.replace(/\D/g, ''), cpf: E.porta === 'abrir' ? E.cpf.replace(/\D/g, '') : undefined }, isca: (d.getElementById('isca') || {}).value || '', aceite: { versao: 'apport-online-2026-10-28', em: Date.now() }, t0: t0 || Date.now(), origem: location.href.split('#')[0] };
+    var envio = /^https?:\/\//.test(API_ABERTURA)
+      ? fetch(API_ABERTURA, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(corpo), signal: ctl ? ctl.signal : undefined })
+          .then(function (r) { if (r.status !== 201) throw new Error('http ' + r.status); return r.json(); })
+          .then(function (j) { if (!j || !j.protocolo) throw new Error('sem protocolo'); return j; })
+          .then(function (j) { return linkQueAbre(j.link).then(function (l) { j.link = l; return j; }); })
+      : Promise.reject(new Error('sem servidor'));
+    envio.catch(function () { return null; }).then(function (srv) { clearTimeout(tm); conclui(srv, janela); botao.disabled = false; });
+  }
+  function conclui(srv, janela) {
+    var prot = srv ? srv.protocolo : protocolo(), t = E.porta === 'abrir' ? 'Quero abrir minha empresa' : 'Quero trocar de contador';
+    var linhas = ['Olá, Apport! ' + t + '. Ficha ' + prot + ' (Apport One Já).', ''].concat(linhasMsg().map(function (x) { return '*' + x[0] + ':* ' + x[1]; }));
+    if (srv && srv.link) linhas.push('*Acompanhamento:* ' + srv.link);
+    var msg = linhas.concat(['', 'Vi os valores no site e concordo com o uso destes dados para a proposta.']).join('\n');
+    var link = 'https://wa.me/' + WA + '?text=' + encodeURIComponent(msg);
+    var foi = false;
+    if (janela && !janela.closed) { try { janela.location.href = link; try { janela.opener = null; } catch (e) {} foi = true; } catch (e) {} }
+    if (!foi) window.open(link, '_blank', 'noopener');
+    d.getElementById('protocolo').textContent = prot; d.getElementById('wa-de-novo').href = link;
+    var acomp = d.getElementById('acomp');
+    if (srv && srv.link) {
+      acomp.hidden = false; d.getElementById('acomp-link').href = srv.link;
+      d.getElementById('feito-rot').innerHTML = '<i aria-hidden="true"></i>Ficha registrada na Apport';
+      d.getElementById('feito-tit').innerHTML = 'Recebemos a sua <em class="s">ficha</em>.';
+      d.getElementById('feito-txt').textContent = 'A Apport já recebeu os seus dados. Abrimos também o WhatsApp com a ficha, para agilizar a resposta com o prazo e o valor final.';
+      d.getElementById('feito-previa').hidden = true;
+    } else acomp.hidden = true;
+    var et = E.porta === 'trocar'
+      ? [['Ficha montada', 'agora, pelo site'], ['Proposta da Apport', 'no WhatsApp, com o valor final'], ['Seu sim e o acesso', 'assinatura e sistema liberado'], ['Troca com o contador atual', 'documentos e acessos, etapa por etapa'], ['Primeiro fechamento com a Apport', 'impostos e folha do mês'], ['Nota fiscal no celular', 'sistema com a marca da Apport']]
+      : (formato() || {}).cod === 'MEI'
+        ? [['Ficha montada', 'agora, pelo site'], ['Análise da Apport', 'confirmamos o MEI e a atividade'], ['Formalização do MEI', 'Portal do Empreendedor'], ['CNPJ', 'sai na formalização'], ['Inscrição e alvará', 'conforme a cidade'], ['Nota fiscal no celular', 'sistema com a marca da Apport']]
+        : [['Ficha montada', 'agora, pelo site'], ['Proposta da Apport', 'prazo e valor final no WhatsApp'], ['Consulta de viabilidade', 'prefeitura'], ['Registro da empresa', 'Junta Comercial'], ['CNPJ', 'Receita Federal'], ['Inscrições e alvará', 'conforme a atividade'], ['Nota fiscal no celular', 'sistema com a marca da Apport, 60 dias grátis']];
+    desenhaMao();
+    d.getElementById('linha').innerHTML = et.map(function (e, i) { return '<li class="' + (i === 0 ? 'ok' : i === 1 ? 'vez' : '') + '"><b>' + e[0] + '</b><small>' + e[1] + '</small></li>'; }).join('');
+    vai('feito'); t0 = 0;
+    try { localStorage.removeItem(CHAVE); } catch (e) {}
+  }
+  d.getElementById('acomp-copia').addEventListener('click', function () {
+    var l = d.getElementById('acomp-link').href, b = this;
+    try { navigator.clipboard.writeText(l).then(function () { b.textContent = 'Link copiado'; }); } catch (e) { b.textContent = l; }
+  });
+  function itens(lista, icone) { return '<ul>' + lista.map(function (x) { return '<li><svg aria-hidden="true"><use href="#' + icone + '"/></svg><span>' + x + '</span></li>'; }).join('') + '</ul>'; }
+  /* o que a pessoa aceita, em linguagem simples: só o que a Apport publica */
+  function desenhaAceita() {
+    var mei = E.porta === 'abrir' && (formato() || {}).cod === 'MEI', L = ['Nada é cobrado agora. A proposta chega no WhatsApp e você decide.'];
+    if (mei) L.push('Registro do MEI gratuito, no Portal do Empreendedor. O acompanhamento da Apport vem na proposta.');
+    else { L.push((E.porta === 'trocar' ? 'Troca de contador' : 'Abertura da empresa') + ': R$ 99,90, valor único.'); L.push('Contabilidade online a partir de R$ 399,90 por mês. O valor exato vem na proposta.'); L.push('Fidelidade de 6 meses na ' + (E.porta === 'trocar' ? 'troca' : 'abertura') + '.'); }
+    if (E.porta === 'abrir' && !mei) L.push('Taxas públicas informadas antes de qualquer pagamento. Na Junta Comercial do RS, até R$ 205,02 (tabela de 2026).');
+    L.push('Seus dados servem só para a proposta e para falarmos com você (LGPD).');
+    d.getElementById('aceita').innerHTML = '<h3>O que você está aceitando</h3>' + itens(L, 'i-ok');
+  }
+  /* o que deixar à mão para a próxima etapa */
+  function desenhaMao() {
+    var L = E.porta === 'trocar'
+      ? ['Certificado digital da empresa, se tiver', 'Acesso à prefeitura para emitir nota, se tiver', 'Contato do contador atual', 'Extratos e notas do mês']
+      : ['RG ou CNH de cada sócio', 'Comprovante de residência', 'IPTU ou inscrição do imóvel onde a empresa vai funcionar', 'Conta gov.br nível prata ou ouro, para assinar digitalmente', 'Certidão de casamento, se for casado'];
+    d.getElementById('mao').innerHTML = '<h3>Deixe à mão</h3>' + itens(L, 'i-nota');
+  }
+  d.getElementById('outro').addEventListener('click', function () { E = JSON.parse(JSON.stringify(VAZIO)); antes = {}; form.reset(); preenche(); vai('porta'); });
+
+  /* ===== o comando do herói: começa digitando ===== */
+  var aba = 'abrir', hq = d.getElementById('hq'), hres = d.getElementById('hq-res'), hdica = d.getElementById('hq-dica'), tH, hEmpresa = null;
+  function trocaAba(a) {
+    aba = a; $$('.abas button').forEach(function (b) { b.setAttribute('aria-selected', String(b.getAttribute('data-aba') === a)); });
+    hq.value = ''; hres.innerHTML = ''; hEmpresa = null;
+    hq.placeholder = a === 'abrir' ? 'O que a sua empresa vai fazer?' : 'Digite o CNPJ da sua empresa';
+    hq.setAttribute('inputmode', a === 'abrir' ? 'text' : 'numeric'); hq.setAttribute('maxlength', a === 'abrir' ? '80' : '18');
+    d.getElementById('hq-rot').textContent = hq.placeholder; hdica.hidden = a !== 'abrir'; hq.focus();
+  }
+  $$('.abas button').forEach(function (b) { b.addEventListener('click', function () { trocaAba(b.getAttribute('data-aba')); }); });
+  $$('[data-ex]', hdica).forEach(function (b) { b.addEventListener('click', function () { hq.value = b.getAttribute('data-ex'); hq.dispatchEvent(new Event('input')); hq.focus(); }); });
+  function sugereAtividades() {
+    var txt = hq.value.trim(); if (txt.length < 3) { hres.innerHTML = ''; return; }
+    carrega().then(function () {
+      if (hq.value.trim() !== txt || aba !== 'abrir') return;
+      var r = busca(txt, 4);
+      hres.innerHTML = r.length ? r.map(function (it, i) { return '<li><button type="button" class="' + (i === 0 ? 'ativo' : '') + '" data-hcod="' + it.cod + '"><span class="cod">' + it.cod + '</span><span class="ds">' + esc(it.desc) + '</span><svg aria-hidden="true"><use href="#i-seta"/></svg></button></li>'; }).join('')
+        : '<li class="aviso">Não achamos na lista do IBGE. Aperte Começar e a gente encontra o código com você.</li>';
+    }).catch(function () { hres.innerHTML = ''; });
+  }
+  function sugereEmpresa() {
+    hq.value = cnpjFmt(hq.value); var c = hq.value.replace(/\D/g, '');
+    if (c.length < 14) { hres.innerHTML = ''; hEmpresa = null; return; }
+    if (!cnpjOk(c)) { hres.innerHTML = '<li class="aviso">Esse CNPJ não confere. Veja os números.</li>'; return; }
+    hres.innerHTML = '<li class="aviso">Consultando a Receita Federal...</li>';
+    carrega().catch(function () {}).then(function () { return consultaCnpj(c); }).then(function (m) {
+      hEmpresa = m;
+      hres.innerHTML = '<li><button type="button" class="emp ativo" data-hemp><span class="ic"><svg aria-hidden="true"><use href="#i-ok"/></svg></span><span><span class="ds"><b>' + esc(m.razao) + '</b></span><br><span class="cod">' + esc(m.cidade) + ' · ' + esc(m.regime) + '</span></span><svg aria-hidden="true"><use href="#i-seta"/></svg></button></li>';
+    }).catch(function () { hEmpresa = { razao: '', manual: true }; hres.innerHTML = '<li class="aviso">Não conseguimos consultar agora. Aperte Começar e seguimos assim mesmo.</li>'; });
+  }
+  hq.addEventListener('input', function () { clearTimeout(tH); if (aba === 'abrir') tH = setTimeout(sugereAtividades, 130); else sugereEmpresa(); });
+  hq.addEventListener('focus', function () { carrega().catch(function () {}); });
+  function comecaComAtividade(cod) {
+    var it = LISTA && LISTA.filter(function (x) { return x.cod === cod; })[0]; if (!it) return;
+    E = JSON.parse(JSON.stringify(VAZIO)); antes = {}; E.porta = 'abrir'; E.ativ = [{ cod: it.cod, desc: it.desc, sec: it.sec }];
+    form.reset(); preenche(); hres.innerHTML = ''; hq.value = '';
+    inicia('abrir', 'pessoas');
+  }
+  function comecaComCnpj() {
+    E = JSON.parse(JSON.stringify(VAZIO)); antes = {}; E.porta = 'trocar'; E.cnpj = cnpjFmt(hq.value); E.empresa = hEmpresa && hEmpresa.razao ? hEmpresa : null; ultimoCnpj = E.cnpj.replace(/\D/g, '');
+    form.reset(); preenche();
+    inicia('trocar', E.empresa ? 'numeros' : 'cnpj');
+  }
+  hres.addEventListener('click', function (e) {
+    var b = e.target.closest('button'); if (!b) return;
+    if (b.hasAttribute('data-hcod')) comecaComAtividade(b.getAttribute('data-hcod'));
+    if (b.hasAttribute('data-hemp')) comecaComCnpj();
+  });
+  function irDoComando() {
+    if (aba === 'abrir') {
+      var p = $('[data-hcod]', hres); if (p) { comecaComAtividade(p.getAttribute('data-hcod')); return; }
+      var txt = hq.value.trim(); E = JSON.parse(JSON.stringify(VAZIO)); antes = {}; E.porta = 'abrir'; form.reset(); preenche();
+      inicia('abrir', 'atividade'); if (txt) { q.value = txt; mostra(); }
+    } else {
+      if (cnpjOk(hq.value)) comecaComCnpj(); else { E = JSON.parse(JSON.stringify(VAZIO)); antes = {}; E.porta = 'trocar'; form.reset(); preenche(); inicia('trocar', 'cnpj'); }
+    }
+  }
+  d.getElementById('hq-ir').addEventListener('click', irDoComando);
+  hq.addEventListener('keydown', function (e) {
+    var bs = $$('button', hres), i = bs.findIndex(function (b) { return b.classList.contains('ativo'); });
+    if (e.key === 'ArrowDown' && bs.length) { e.preventDefault(); if (i >= 0) bs[i].classList.remove('ativo'); bs[Math.min(bs.length - 1, i + 1)].classList.add('ativo'); }
+    if (e.key === 'ArrowUp' && bs.length) { e.preventDefault(); if (i >= 0) bs[i].classList.remove('ativo'); bs[Math.max(0, i - 1)].classList.add('ativo'); }
+    if (e.key === 'Enter') { e.preventDefault(); e.stopPropagation(); var at = $('button.ativo', hres); if (at) at.click(); else irDoComando(); }
+  });
+  function mostraRetomar() {
+    var r = d.getElementById('retomar'), f = fluxo();
+    if (E.porta && E.passo && f.indexOf(E.passo) > 0) { r.hidden = false; d.getElementById('retomar-txt').textContent = 'Você tem um pedido em andamento: ' + (E.porta === 'abrir' ? 'abrir empresa' : 'trocar de contador') + ', ' + progresso() + '% pronto.'; }
+    else r.hidden = true;
+  }
+  d.getElementById('retomar-bt').addEventListener('click', function () { inicia(E.porta, E.passo); });
+
+  preenche(); mostraRetomar();
+  function peloLink() { var h = location.hash.slice(1); if (h === 'comecar') inicia(''); else if (h === 'abrir' || h === 'trocar') inicia(h); }
+  addEventListener('hashchange', peloLink);
+  peloLink();
+})();
+</script>
+</body>
+</html>
